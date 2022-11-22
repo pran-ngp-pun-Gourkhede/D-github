@@ -1,0 +1,4231 @@
+Basics of Web:
+Define Web?
+Collection of e-resoruces is called web. Sir Tim Berners-Lee invented the World Wide Web in 1989.
+
+Define W3C?
+World Wide Web Consortium, It is an organization to maintain web standards, It was founded by Tim Berners-Lee @ 1994.
+
+Define INTERNET?
+INTERnational NETwork
+OR
+INTERconnected NETwork
+OR
+A network of networks based on the TCP/IP communications protocol.Father of Internet is Dr. Vint Cerf.
+
+Define TCP?
+Transmission Control Protocol
+OR
+It is connectvity between computers in a NETWORK(LAN).That facilitates the exchange of messages.
+
+Define IP?
+Internet Protocol
+OR
+It is connectvity between networks (WAN)
+
+Define Protocol?
+Collection of rules between sender & receiver
+OR
+It is a standard set of rules that allow electronic devices to communicate with each other.
+
+Defime Email/WebMail?
+It is a method of exchanging messages between people using electronic devices.
+OR
+Webmail is a way of sending and receiving emails from a web browser.
+
+Mail communications are classified into the following two types:
+1. Online Mail Communications
+2. Offline Mail Communications
+
+1. Online Mail Communications
+These are popularly known as web mails. First web mail concept developed by an Indian Mr. Sabeer Bhatia, ie. https://www.hotmail.com
+Example:
+Gmail, Yahoomail, Hotmail, AOL Mail, GMX Mail, Outlook.com...........!!
+
+2. Offline Mail Communications
+These are popularly known as POP mails. POP stands for Post Office Protocol. These are special softwares. 
+Example:
+MSOutlookExpress
+MozillaThunderBird
+PoP3 Server.
+
+Define SMTP?
+Simple Mail Transfer Protocol. 
+OR
+Cross mail domain communications
+
+Define MIME?
+Multipurpose Internet Mail Extensions 
+OR
+It is an Internet standard that extends the format of email messages, like pictures, audio, video, and various types of documents and files in the e-mail. It supports UNICODE format Data..!!
+
+Define HTTP/HTTPs
+HTTP:
+Hypertext Transfer Protocol.
+HTTP transmits the data over port number 80.
+No Data Encryption
+Google does not give the preference 
+
+HTTPS:
+Hypertext Transfer Protocol Secure.
+HTTPS transmits the data over port number 443
+SSL that provides the encryption of the data.
+Google gives preferences to the HTTPS
+
+URL
+URN==>  Uniform Resource Name
+URI  ==>  Uniform Resource Identifier
+URL  ==> Uniform Resource Locator
+It is a unique address to identify a person or an organization in the World Wide Web
+
+Example:
+https://www.naresit.com
+http ==> Hyper Text Transfer Protocol (Common Language between Client & Server)
+S ==> SSL ==> Secure Sockets Layer.
+:// ==> Delimiters
+www ==> Default Domain or Sub Domain
+. ==> Period or Embedded Character
+nareshit ==> Primary Level Domain (PLD)
+com ==> Top Level Domain (TLD)
+
+Web Browser
+It is client side light weight software, it takes http request from client to server, It renders(bring) http response from server to client.
+1. Google Chrome
+2. Mozilla Fire Fox Browser
+3. EDGE Browser
+4. OPERA Browser
+5. APPLE SAFARI Browser
+6. Torch
+7. Lion
+
+WebPage:
+It is e-document developed on HTML. It is classified into the following two types:
+1. Static Web Pages
+These are written in languages such as: HTML, CSS, JavaScript,etc.
+
+2. Dynamic Web Pages
+These are written in languages such as:JSP, CGI, AJAX, ASP, PYTHON, etc.
+
+WebSite
+Collection of web pages is called website.
+
+Full Stack
+A full stack means combination of client and server technologies.
+FullStackDeveloper/Ninja Programmer
+Class_htm_1.txt
+Displaying Class_htm_1.txt.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Introduction to HTML:
+It is the standard markup language used to create web pages. 
+
+Features of HTML..
+1.HTML is highly flexible
+2.HTML is user friendly
+3.HTML is an open technology
+4.HTML is consistent and efficient
+5. It takes less time to load the web pages
+
+Limitations of HTML:
+1. It can create only static and plain pages
+2. Need to write lot of code 
+3. Security features are not good in HTML.
+
+Versions of HTML
+Version 		Year
+HTML 		1991
+HTML 2.0 		1995
+HTML 3.2 		1997
+HTML 4.01 	1998
+XHTML 		1999
+HTML5 		2008-2014 (W3C + WHATWG)
+HTML5.1 		2016
+
+HISTORY of HTML :(Web-1.0)
+As per W3C standards:
+First time, Sir Tim Berners Lee implemented
+1989 GML ==> Generalized Markup Language
+1991 SGML ==> Standard Generalized Markup Language
+1994 HTML ==> Hyper Text Markup Language
+1998 ==> XML+HTML=XHTML =>  Extended Hyper Text Markup Language, features are: SMS, MMS, Email, Web-Services, 
+
+After 10 Years(Web2.0)
+www.whatwg.org (Mozilla+Apple+Opera)
+Web Hypertext Application Technology Working Group
+2008 => HTML5 ==> Advanced Hyper Text Markup Language for Better webApps.
+
+After 8 Years
+2016 ==> HTML5.1, Advanced Hyper Text Markup Language for all Gadgets and Widgets  (Small E-Devices or Smart Components)
+
+PYTHON+Django+NLP+ML+DL+AI
+Web-3.0 ==> Web BOTS (Automation)
+
+Define a Tag:
+The text placed between left angular brace " < " and right angular brace " > " is called as TAG.
+
+Syntax:	<------>
+Example:	<html>
+
+Tags are classified into two types:
+1. Paired Tags:
+The tags that have both opening and closing tags are called as paired tags.
+
+Examples:
+	<html>-----------------</html>
+	<body>-----------------</body>
+
+Note:The closing tag starts with a forward slash("/")
+
+2. Non-Paired Tags:
+The tags that have only opening tags but no closing tags are called as Non-paired tags.
+Examples:
+<br> or <br/>	<hr> or <hr/>    <img> or <img/>
+
+1. Empty Tags 2. Self-Closed Tags 3. Forcefully Closed Tags
+
+Structure of html:
+<html>
+       <head>
+             <title>---------</title>
+       </head>
+       <body>
+            ----------
+            ----------
+       </body>
+</html>
+
+HTML Elements/Tags
+An element consists of three basic parts: 
+1. Opening tag
+2. Element's content
+3. Closing tag.
+
+Essential HTML Tags
+There are four sets of HTML tags that form the basic structure needed for every HTML file:
+
+1 <html></html>
+2 <head></head>
+3 <title></title>
+4 <body></body>
+
+Definition - <html> </html>
+This basically defines the document as web page. All other tags must fall between the html tags.
+
+Header - <head> </head>
+The header contains information about the document that will not appear on the actual page, such as the title of the document.
+
+Title - <title> </title>
+The title tag defines the title that will appear in the title bar of your web browser. The title must appear between the head tags.
+
+Body - <body> </body>
+The body tags contain all the information and other visible content on the page. All your images, links and plain text must go between the <body> and </body> tags.
+
+HTML Tags
+HTML tags are element names surrounded by angle brackets:
+
+Syntax:
+<tagname>content goes here...</tagname>
+
+NOTE: The start tag is also called the opening tag, and the end tag the closing tag.
+
+HTML editors
+There are many software packages available to develop HTML. The software packages can be grouped into two main categories:
+
+1 text-based (or code-based) Editors
+2 WYSIWYG (what you see is what you get) Editors
+
+1 text-based (or code-based) Editors
+You can create web pages with a basic text editor like Windows Notepad, Unix VI, Linux ViM etc..!!
+VI ==> VIsual Editor
+ViM ==> Visually Improved Editor
+
+2 WYSIWYG (what you see is what you get) Editors:
+There are several popular WYSIWYG editors available:
+1 Macromedia Dreamweaver
+2 Microsoft FrontPage
+3 Adobe Go Live
+4 WebStorm
+5 PyCharm
+6 SublimeText
+7 Brackets
+8 Edit++, Notepad++
+9 ATOM
+10 Visual Studio Code
+
+How to Create a WebPage?
+Step1: Launch any Text Editor or IDE 
+Step2: Write Required HTML source code 
+Step3: Save the file with .htm or .html extension
+Step4:Right click on the saved file, open with any Web Browser or Double Click on the saved file.
+
+Example:
+<html>
+<head>
+<title>
+My First Page
+</title>
+</head>
+<body>
+Welcome to HTML World.!!
+</body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Shortcut Keys-In Web Browsers:
+The following shorcut keys frequently we are using to complete task quickly..!!
+Ctrl+N==> Open a new window 
+Ctrl+T==> Open a new tab 
+Ctrl+W==> Close the current window/tab 
+Ctrl+R or F5 ==>Refresh Web Page
+Ctrl+u ==> View Source code
+Esc ==> Stop the loading the web page
+Alt+<-- Backward History
+Alt+--> Forward History
+Alt+Home Go to your homepage 
+Alt+D  focus to the address bar to type new URL 
+To zoom in, increasing the size     Ctrl ++ 
+To zoom out, decreasing the size, Ctrl+- 
+To reset size back to normal         Ctrl+0 
+Bookmark This Page  Ctrl + D  
+Complete .com Address  Ctrl + Enter
+
+HTML Comments
+The comment tag is used to insert comments in the source code. Comments are not displayed in the browsers.
+
+You can use comments to explain your code, which can help you when you edit the source code at a later date. This is especially useful if you have a lot of code. 
+
+In HTML, a comment begins with <!-- And ends with -->. 
+
+Example of a single line comment:
+<!--This is a small comment-->
+
+Example:
+<!-----This comment will not appear in the Web Page---->
+
+Example:
+<html>
+<head>
+<title>
+Welcome to HTML
+</title>
+</head>
+<body>
+<!-- Naresh i Technologies, Leader in IT Training-->
+</body>
+</html>
+
+Parts in HTML Document:
+Generally HTML document has the following 3 parts:
+1. Version Information
+2. Head Section 
+3. Body Section
+
+1. HTML version information
+The <!DOCTYPE> declaration must be the very first thing in your HTML doc, before the <html> tag. The <!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in.
+
+NOTE:
+The <!DOCTYPE> declaration is NOT case sensitive
+
+Example:HTML-4.01
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+Example:HTML-5.0
+<!doctype html>
+
+Head Section:
+It contains general information, meta-information and document type information. The <head> Tag inside Elements should not display in body section of a webpage.
+
+Head Section Tags:
+1. <title> 
+2. <link> 
+3. <meta> 
+4. <style>  
+5. <script> 
+
+<title> Tag:
+The <title> tag is required in all HTML documents and it defines the title of the document. It is a paired tag.
+
+Syntax:
+<title>........................ </title>
+
+Example:
+<!doctype html>
+<html>
+<head>
+<title>
+Welcome to Web Page
+</title>
+</head>
+
+<link> Tag:
+It defines a link between a document and an external resource. It is used to link to external style sheets. It is non-paired tag.
+
+Syntax:
+<link> or <link/>
+
+Syntax:
+<link href="PathOfResource" rel="Relation of Resource" type="Type Of Resource"/>
+
+Attributes
+Attribute 		Value 	Description
+href 		URL 	Specifies the location of the linked document
+rel 		alternate	Provides a link to an alternate version of the document stylesheet Imports a 				style sheet
+type		text/type	It is an Optional Attribute
+
+How to Add a Favicon to your Web-Site
+Favicons are also called shortcut icons.It is a graphic image associated with a particular Web page and/or Web site.  To add a favicon to your Web site.The format of the image must be one of PNG (a W3C standard), GIF (Graphic Interchange Format) , or ICO. The format for the  image you have chosen must be 16x16 pixels or 32x32 pixels. 
+
+Example:
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="html5.png" type="image/ico" href="icon">
+</head>
+<body>
+Welcome to FavIcons..!!
+</body>
+</html>
+
+Meta Info
+Tag 		Description
+<head> 		Defines information about the document
+<meta> 		Defines metadata about an HTML document
+
+<meta> Tag:
+It provides metadata about the HTML document. Metadata will not be displayed on the page, but It will be machine parsable. Meta elements are typically used to specify page:
+
+1. meta keywords
+2. meta description
+3. meta author
+4. meta title
+5. meta charset
+6. meta viewport
+
+1. meta keywords: Define keywords for search engines:
+
+Syntax:
+<meta name="keywords" content="required list of keywords">
+
+Example:
+<meta name="keywords"  content="python beginner, beginner python tutorial, python online tutorial, python source code"/>
+
+Example:
+<meta name="keywords" lang="en-IN" content="live cricket scores, cricket, india cricket, live cricket news, yahoo cricket, australia cricket, england cricket"/>
+
+2. meta description: Define a description of your web page
+
+Syntax:
+<meta name="description" content="required Page Description">
+
+Example:
+<meta name="description"  content="A online beginner java tutorial website covering basics of programming along with java source code." />
+
+Example:
+<meta name="description"  content="Check out live cricket scores, cricket news headlines, cricket schedules &amp; results and more from Yahoo!"/>
+
+3. meta author: Define the author of a page:
+
+Syntax:
+<meta name="author" content="name of the author">
+
+Example:
+<meta name="author"  content="kssubbaraj" />
+
+4. meta title: Define the title of the meta content.
+
+Syntax:
+<meta name="title" content="required meta title">
+
+Example:
+<meta name="title" content="Welcome to NareshIT - Hyderabad. Register Now for New Batches" />
+
+5. meta charset: 
+Character encoding tells browsers and validators what set of characters to use when rendering web pages. Unicode Transformation Format-8. It is a universal encoding that will support most of the character like greece, hebrew, japanese, etc
+
+What is Unicode?
+Unicode provides a unique number for every character,
+no matter what the platform,
+no matter what the program,
+no matter what the language.
+
+Syntax: HTML 4.0
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+Syntax:HTML5.0
+<meta charset="UTF-8" />
+
+Example:
+<!doctype html>
+<html lang="en-IN">
+<head>
+<title>
+Working With Unicode
+</title>
+<meta charset="utf-8">
+</head>
+<body>
+Any Language...!!
+</body>
+</html>
+
+6. meta viewport: HTML5 introduced a method to let web designers take control over the viewport. Setting the viewport to make your website look good on all devices.
+
+Syntax:
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style> Element
+The <style> tag is used to define style information for an HTML document. It is a paired tag.
+
+Syntax:
+<style> ........................ </style>
+
+Example:
+<head>
+<style type="text/css">
+body 
+{
+background-color:yellow;
+}
+</style>
+</head>
+
+The HTML <script> Element
+The <script> tag is used to define a client-side script, such as a JavaScript. It is a paired tag.
+
+Syntax:
+<script> ........................ </script>
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Visual Studio Code for Web Developers, It is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js. 
+
+Features of Visual Studio Code
+1. Free to use
+2. Open Source(Code can viewed modified & shared)
+3. IDE like Features
+4. Support by large community of users & Microsoft
+
+Install Visual Studio Code:
+https://code.visualstudio.com
+
+3. body Section
+
+<body> Tag:
+The body section contains all the contents of an HTML document, such as text, hyperlinks, images, Special Character, lists, tables, frames, forms etc. Mostly all the HTML Tags are use this Section. It's most Powerful section. It is a paired tag.
+
+Syntax:
+<body>.......................</body>
+
+Body tag attributes and parameters:
+Attributes			Parameters
+bgcolor			Color Name/ColorCode
+background		image path
+text			Color Name/ColorCode
+
+Note: ColorCode Indicates Hexadecimal color number.
+
+HTML Attributes and Parameters:
+1. HTML tags can contain one or more attributes.
+2. Attributes are always specified in the start tag.
+3. Attributes consist on name/value pairs.
+4. Attribute values always be enclosed in quotes.
+5. Double quotes are the most common use, but single quotes are also allowed.
+6. Attributes are special features of a tag.
+
+Parameters:
+Parameters are the values, that we assign to an attribute.
+
+Syntax:
+	<tag  attribute="parameter">
+Example:
+	<body  bgcolor="blue">
+
+HTML Colors
+W3C Standard 16 Colors:
+Here is the list of W3C Standard 16 Colors names and it is recommended to use them.
+
+Black	Gray	Silver	White
+Yellow	Lime	Aqua	Fuchsia
+Red	Green	Blue	Purple
+Maroon	Olive	Navy	Teal
+
+Color Values
+HTML colors are defined using a hexadecimal notation (HEX) for the combination of Red, Green, and Blue color values (RGB). The lowest value that can be given to one of the light sources is 0 (in HEX: 00). The highest value is 255 (in HEX: FF). HEX values are specified as 3 pairs of two-digit numbers, starting with a # sign.
+
+HTML Colors - Hex Codes:
+A hexadecimal is a 6 digit representation of a color. The first two digits(RR) represent a red value, the next two are a green value(GG), and the last are the blue value(BB).
+
+A hexadecimal value can be taken from any graphics software like Adobe Photoshop, Advanced Paint Brush.
+
+Hexadecimal Value - #FFFFFF RGB Color Code - R=255 G=255 B=255
+
+16 Million Different Colors
+The combination of Red, Green, and Blue values from 0 to 255, gives more than 16 million different colors (256 x 256 x 256).
+
+#FF0000-->Red
+#00FF00-->Green
+#0000FF-->Blue
+#000000-->Black
+#FFFFFF -->white
+#FFFF00 -->Yellow
+#FF9900 -->Orange
+------------
+------------
+16 Million Colors..................!!
+
+Example:
+<html>
+<head>
+<title>
+Hexa color codes
+</title>
+</head>
+<body bgcolor="#00FFDD" text="FFFF00">
+<p>Working with Hexa color codes.</p>
+<p>We can make 16 million colors.</p>
+</body>
+</html>
+
+Entities:
+HTML5 SPECIAL CHARACTERS
+Character entities can be typed as either a numbered entity or a named entity. All character entities begin with an ampersand (&) and end with a semicolon (;). Although every character entity has a numbered version, not everyone has a named version. While a few are listed in the following table to give you an idea of what they look like.
+
+Char 	Number 	Entity 	Description
+© 	&#169; 	&copy; 	COPYRIGHT SIGN
+® 	&#174; 	&reg; 	REGISTERED SIGN
+€ 	&#8364; 	&euro; 	EURO SIGN
+™ 	&#8482; 	&trade; 	TRADEMARK
+← 	&#8592; 	&larr; 	LEFTWARDS ARROW
+↑ 	&#8593; 	&uarr; 	UPWARDS ARROW
+→ 	&#8594; 	&rarr; 	RIGHTWARDS ARROW
+↓ 	&#8595; 	&darr; 	DOWNWARDS ARROW
+♠ 	&#9824; 	&spades; BLACK SPADE SUIT
+♣ 	&#9827; 	&clubs; 	BLACK CLUB SUIT
+♥ 	&#9829; 	&hearts; 	BLACK HEART SUIT
+♦ 	&#9830; 	&diams; 	BLACK DIAMOND SUIT
+∀ 	&#8704; 	&forall; 	FOR ALL
+∂ 	&#8706; 	&part; 	PARTIAL DIFFERENTIAL
+∃ 	&#8707; 	&exist; 	THERE EXISTS
+∅ 	&#8709; 	&empty; 	EMPTY SETS
+∇ 	&#8711; 	&nabla; 	NABLA
+∈ 	&#8712; 	&isin; 	ELEMENT OF
+Α 	&#913; 	&Alpha; 	GREEK CAPITAL LETTER ALPHA
+Β 	&#914; 	&Beta; 	GREEK CAPITAL LETTER BETA
+Γ 	&#915; 	&Gamma; GREEK CAPITAL LETTER GAMMA
+
+Using Emojis in HTML:
+Emojis look like images, or icons, but they are not. They are letters (characters) from the UTF-8 (Unicode) character set.
+
+Emoji Characters
+Emojis are also characters from the UFT-8 alphabet:
+    😄 is 128516
+    😍 is 128525
+    💗 is 128151
+
+Some Emoji Symbols in UTF-8
+Emoji 	Value
+🗻	&#128507;
+🗼	&#128508;
+🗽	&#128509;
+🗾	&#128510;
+🗿	&#128511;
+😀	&#128512;
+😁	&#128513;
+😂	&#128514;
+😃	&#128515;
+😄	&#128516;
+😅	&#128517;
+
+Example:
+<!doctype html>
+<html>
+<head>
+<title>
+Basics of HTML
+</title>
+</head>
+<body>
+Welcome to HTML Basics....! &copy; &reg; &trade; <br/>
+&#169; &#8364; &larr; &rarr; &spades; &hearts; &diams; <br/>
+&#128516;&#128515;&#128514;&#128513;&#128512;&#128511;
+&#128510;&#128517;&#128518;
+</body>
+</html>
+-----------------------------------------------------------------------------------------------------------------------------------------------
+HTML Tags Ordered by Category
+1 Basic HTML
+2 Formatting
+3 Forms and Input
+4 Frames
+5 Images
+6 Audio / Video
+7 Links
+8 Lists
+9 Tables
+10 Styles and Semantics
+11 Meta Info
+12 Programming
+
+1 Basic HTML:
+1 <!DOCTYPE>  	
+2 <html> 		
+3 <title> 		
+4 <body> 		
+5 <h1> to <h6> 	
+6 <p> 		
+7 <br> 		
+8 <hr> 		
+9 <!--...--> 
+
+Headings in html:
+In html, we are having six heading styles. All the headings are paired tags. Each and every heading will have their own predefined styles.
+
+Syntax:
+<h1>--------------------------</h1>
+<h2>--------------------------</h2>
+<h3>--------------------------</h3>
+<h4>--------------------------</h4>
+<h5>--------------------------</h5>
+<h6>--------------------------</h6>
+
+Out of all heading styles, biggest heading style is h1 and smallest is h6.
+
+Attributes		Parameters
+align		left, right, center
+
+Example
+<html>
+<head>
+<title>
+Headings in HTML..!!
+</title>
+</head>
+<body>
+<h1>Welcome to Naresh i Technologies in Header One</h1>
+<h2>Welcome to Naresh i Technologies in Header Two</h2>
+<h3>Welcome to Naresh i Technologies in Header Three</h3>
+<h4>Leader in IT Training in Header Four</h4>
+<h5>Welcome to Naresh i Technologies in Header Five</h5>
+<h6>Welcome to Naresh i Technologies in Header Six</h6>
+</body>
+</html>
+
+Paragraph tag:
+It is used to divide the text into different paragraphs. It is a paired tag.
+
+Syntax: <p>-------------</p>
+
+Attributes		Parameters
+align		left, right, center, justify
+
+Example
+<html>
+<head>
+<title>
+Paragraph tag
+</title>
+</head>
+<body>
+<p align="center">Welcome to Naresh i Technologies </p>
+<p align="left">Welcome to Naresh i Technologies </p>
+<p align="right">Welcome to Naresh i Technologies </p>
+<p align="justify">Some text...</p>
+</body>
+</html>
+
+<br> tag
+br stands for break. It is used to break a line and shift the following text to a new line. It is a non-paired tag.
+
+Syntax:	
+<br>
+
+Example:
+<html>
+<title>
+Welcome to HTML
+</title>
+<body>
+To break<br />lines<br />in a<br />paragraph,<br />use the br element.
+</body>
+</html>
+
+&nbsp;
+It stands for Non-Breaking Space. It is used to add more than one space between the words. It is a special Characters or entity
+
+Syntax: 
+&nbsp;
+
+Example:
+<!doctype html>
+<html>
+<title>
+Special Character
+</title>
+<body>
+This is example using special &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp codes<br>
+a &lt b <br/>
+&copy &trade;&amp;&142
+</body>
+</html>
+
+HR tag: (Horizontal Rule)
+hr tag is used to draw a line across the web page. It is non-paired tag.
+
+Syntax: <hr> or <hr/>
+
+Attributes 	Parameters
+color		ColorName/HexaColorCode
+size		pix
+width		% or pix	
+align		left, right, center
+noshade		noshade
+
+Note:
+1. The default width of the horizontal rule is 100%
+2. The default alignment of the hr is center.
+3. noshade attribute will be applied only when we are not specifying the color of the horizontal rule.
+
+Example
+<html>
+<title>
+hr tag
+</title>
+<head>
+<b><h1 align="center">I am Learning Web Language HTML</b></h1>
+</head>
+<body>
+<p>Naresh i Technologies.</p>
+<hr  size="4pix" width=20% align="right" noshade="noshade">
+<p>Leader in IT Training.</p>
+<hr>
+<p>Hyderabad-Ameerpet.</p>
+</body>
+</html>
+
+Example9
+<html>
+<Title>
+Welcome to Naresh i Technologies
+</Title>
+<Head>
+<b><h1 align="center">I am Learning Web Language HTML</b></h1>
+</Head>
+<body>
+<p>Naresh i Technologies.</p>
+<hr  color="pink" size=18pix width=20% align="right">
+<p>Leader in IT Training.</p>
+<hr size=28pix color="red">
+<p>Hyderabad-Ameerpet.</p>
+</body>
+</html>
+---------------------------------------------------------------------------------------------------------------------------------------
+HTML Presentational Tags: * are IMP tags (more usage in Web)
+1 <acronym> 	2 <address> 	
+3 <b> 		4 <big> 		
+5 <blockquote> *	6 <center> 		
+7 <cite> 		8 <code>*	
+9 <del> 		10 <dfn> 		
+11 <em> 		12 <font> 		
+13 <i> 		14 <ins> 		
+15 <kbd>*		16 <pre>*	
+17 <q> 		18 <s> 		
+19 <samp> 	20 <small> 		
+21 <strike> 	22 <strong> 		
+23 <sub> 	* 	24 <sup>	*	
+25 <tt> 		26 <u> 		
+27 <var> 		
+
+HTML <acronym> Tag.
+It defines a full form or stands for. An acronym must spell out another word. It is a paired tag.  Not Supported in HTML5.
+
+Syntax:
+<acronym>................................... </acronym> 
+
+Example:
+<html>
+<body>
+Hello Welcome to<acronym title="Naresh i Technologies"> NiT </acronym> <br/>
+</body>
+</html>
+
+<address> Tag:
+It tag is used for indicating an address. The address usually renders in italic format. It is a paired tag.
+
+Syntax:
+<address>...................</address>
+
+Example:
+<!DOCTYPE html>
+   <body>
+      <address>
+         Naresh i Technologies,<br />
+         Ameerpet,Hyderabad<br />
+         TELANGANA - 50027
+      </address>
+   </body>
+
+<b> Tag
+It is bold tag. It convert the text or characters in to bold format. It is a paired tag.
+
+Syntax:
+<b>--------------</b>
+
+<strong>
+It is aslo bold tag. It convert the text or characters in to bold format. It is a paired tag.
+
+Syntax:
+<strong>---------------</strong>
+
+Example:
+<html>
+<head>
+<title>
+MyBoldTag
+</title>
+</head>
+<body>
+<b>Welcome to Bold Font formated ..</b>
+<br>
+<bold>Welcome to Bold Font formated</bold>
+</body>
+</html>
+
+<big>
+It is used to display the big font size text. It is a paired tag.
+
+Syntax:
+<big>-----------</big>
+
+Example:
+<html>
+<head>
+<title>
+Small&Big
+</title>
+</head>
+<body>
+<small>Hello How are u..!</small>
+<br/>
+<big>Hello How are u..@@</big>
+</body>
+</html>
+
+<blockquote>
+It specifies a section that is quoted from another source. Browsers usually indent <blockquote> elements. It is a paired tag.
+
+Syntax:
+<blockquote>-----------</blockquote>
+
+Example:
+<!DOCTYPE html>
+<html>
+<body>
+<blockquote>
+AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly. Angular's data binding and dependency injection eliminate much of the code you would otherwise have to write.
+</blockquote>
+</body>
+</html>
+
+<center>
+It is used to display the text at the page center. It is a paired tag.
+
+Syntax:
+<center>---------</center>
+
+Example
+<html>
+<head>
+<title>
+Center Tag
+</title>
+</head>
+<body>
+<center>Text Page Center..!!</center>
+</body>
+</html>
+<html>
+
+HTML <cite> Tag
+It is used for representing a citation in an HTML document. It defines the title of a work . It is a paired tag.
+
+Syntax:
+<cite> ................... </cite>
+
+Example:
+<body>
+<img src="html.png" width="200px" height="200px" alt="The Scream"> <br>
+<cite>LOGO from W3WorldWideWebCon </cite>
+</body>
+
+HTML <code> Tag
+It is a phrase tag.It defines a piece of computer code. It is a paired tag.
+
+Syntax:
+<code>..................</code>
+
+Example:
+<body>
+<code>A piece of computer code</code>
+</body>
+
+<del>		
+We can able to display striking through text on the web Page. It is indicated removed or deprecated text from the Web Page. It is a paired tag.
+
+Syntax:
+<del>-------------</del>
+
+Example:
+<html>
+<head>
+<title>
+Strike Effects
+</title>
+</head>
+<body>
+<s>It is Removed Text from the Page..</s><br>
+<strike>It is Removed Text from the Page.. </strike><br>
+<del>It is Removed Text from the Page..</del>
+</body>
+</html>
+
+HTML <dfn> Tag
+It represents the defining instance of a term in HTML. It is a paired tag.
+
+Syntax:
+<dfn> ...........................<dfn>
+
+Example:
+<html>
+<body>
+<dfn>HTML</dfn> is the standard markup language for creating web pages. <br>
+<dfn title="HyperText Markup Language">HTML</dfn> is the standard markup language for creating web pages
+</body>
+</html>
+
+<em>
+It is also used to display italics font on the web page. it a paired tag. It is emphasis (Italics)
+
+Syntax:
+<em>-----------</em>
+
+Example:
+<html>
+<head>
+<title>
+Italics or Emphasis
+</title>
+</head>
+<body>
+<i>Welcome to Italics Formated Text...</i> <br>
+<em>Welcome to Italics Formated Text...</em> 
+</body>
+</html>
+
+<i>
+It is used to display italics font on the web page. it a paired tag.
+
+Syntax:
+<i>---------------</i>
+
+HTML <ins> Tag
+It defines a text that has been inserted into a document. It represents a range of text that has been added to a document. It is a paired tag.
+
+Syntax:
+<ins> .................... </ins>
+
+Example:
+<html>
+<body>
+My favorite color is <ins>red</ins>!
+</body>
+</html>
+
+Font tag:
+Font tag is used to format the text such as changing the text size, color and style. Using this tag, we can apply styles to a character, word, sentence, etc. It is a paired tag.
+
+Syntax:
+<font>-------------</font>
+
+Attributes		Parameters
+color			any color name or hexadecimal number
+size			1 to 7
+face			arial, tahoma, etc.,
+
+Note:
+1. The default size of the text in the web page is 3.
+2. The default face of the text in the web page is Times New Roman.
+3. The default color of the text is black  in the web page.
+
+Example
+<html>
+<title>
+Font tag
+</title>
+<head>
+<center><b>I am Learning Web Language</center></b>
+</head>
+<body>
+<p><font size="3" color="red">Welcome to Naresh i Technologies in RED color!</font></p>
+<p><font size="2" color="blue">Welcome to Naresh i Technologies in BLUE color!</font></p>
+<p><font face="verdana" color="green">Welcome to Naresh i Technologies in GREEN color!</font></p>
+<p><font size=7 color="pink">Leader in IT Training</font></p>
+</body>
+</html>
+
+--------------------------------------------------------------------------------------------------------------------------------------
+HTML <kbd> Tag
+It defines keyboard input.It is a paired tag.
+
+Syntax:
+<kbd> .................. </kbd>
+
+Example:
+<body>
+<p>Type the following in the Run dialog:
+<kbd>cmd</kbd><br />Then click the OK button.</p>
+<p>Save the document by pressing
+<kbd>Ctrl</kbd> + <kbd>S</kbd></p>
+</body>
+
+Pre tag: 
+Pre stands for pre-formatted text. If we specify the text in pre tag, the browser will consider the line breaks (Return / Enter keys) and spaces specified in the text editor (notepad). Pre is a paired tag.
+
+Syntax:	<pre>---------------</pre>
+
+Example:
+<html>
+<head>
+<title>
+Pre formated Tag
+</title>
+</head>
+<body>
+<pre>
+Text in a pre element is displayed
+in a fixed-width font, 
+and it preserves both      spaces and
+line breaks
+</pre>
+<p>The pre element is often used to display computer code:</p>
+</body>
+</html>
+
+<q>:
+It is used to display the double quoted text. It is a paired tag.
+
+Synax:
+<q>-------------</q>
+
+Example:
+<html>
+<head>
+<title>
+Double Quotes
+</title>
+</head>
+<body>
+<q>Normal text in Double Quotes..!!</q>
+</body>
+</html>
+
+Striking effect:
+<s> Tag:
+We can able to display striking through text on the web Page. It is indicated removed or deprecated text from the Web Page. It is a paired tag.
+
+Syntax:
+<s>----------------</s>
+
+<strike> Tag:
+We can able to display striking through text on the web Page. It is indicated removed or deprecated text from the Web Page. It is a paired tag.
+
+Syntax:
+<strike>----------------</strike>
+
+<sup>
+It is used to display superscript text. Super Indicates power to the number or string. It is a paired tag.
+
+Syntax:
+<sup>------------</sup>
+
+<sub>
+It is used to display subscript text. It indicates base to the number or string. It is a paired tag.
+
+Syntax:
+<sub>-------------</sub>
+
+Example:
+<html>
+<head>
+<title>
+Super&Sub
+</title>
+</head>
+<body>
+It is the Power of (100) <sup>3</sup><br/>
+It is the Base of  (100) <sub>10</sub>
+</body>
+</html>
+
+<small> Tag:
+It is used to display the small font size text. It is a paired tag.
+
+Syntax:
+<small>----------</small>
+
+<tt>
+It is stands for teletype. It is used to display tele type formated text like dot matrix printer. It is a paired tag.
+
+Syntax:
+<tt>----------</tt>
+
+Example:
+<html>
+<head>
+<title>
+TeleTyped
+</title>
+</head>
+<body>
+<tt>Text looks line Tele formated...!!</tt>
+<br>
+Normal text Normal text Normal text ...@@
+</body>
+</html>
+
+HTML <samp> Tag
+It is a phrase tag. It defines sample output from a computer program. It is a paired tag.
+
+Syntax:
+<samp>..............................</samp>
+
+Example:
+<html>
+<body>
+<samp>Sample output from a computer program</samp>
+</body>
+</html>
+
+<u> Tag:
+It is used to display underlined text on the web page. It is a paired tag.
+
+Syntax:
+<u>......................</u>
+
+Example:
+<html>
+<head>
+<title>
+Underline Tag
+</title>
+</head>
+<body>
+<u>Hello The Text is UnderLined..</u>
+</body>
+</html>
+
+HTML <var> Tag
+The <var> tag is a phrase tag. It defines a variable. It is a paired tag.
+
+Syntax:
+<var> .................... </var>
+
+Example:
+<html>
+<body>
+<var>Variable</var>
+</body>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+What is a Web Form?
+It is an HTML form on a web page that lets visitors enter their information. It has the following alias names:
+1. Webforms
+2. htmlforms
+3. Input forms
+4. Select forms
+etc..............!!
+
+Uses of Web Forms
+Forms can resemble paper or database forms because web users fill out the forms using checkboxes, radio buttons, or text fields. 
+
+The <form> Element
+It defines a form that is used to collect user input. It represents a document section that contains interactive controls to submit information to a web server. It is a paired tag.
+
+Syntax:
+<form> .................................</form>
+
+Form Attributes:
+Attributes		Parameters
+name			any name
+method			To specify the type of method what we are using to submit form  values. The 			possible methods are get and post.
+action			we can specify the page name to which page you want to submit control 				values 
+target 			Specify the target window or frame where the result of the script will be 				displayed. It takes values like _blank, _self, _parent etc.
+enctype			You can use the enctype attribute to specify how the browser encodes the 				data before it sends it to the server. 
+
+Possible values are:
+application/x-www-form-urlencoded - This is the standard method most forms use in simple scenarios.
+mutlipart/form-data - This is used when you want to upload binary data in the form of files like image, word file etc.
+
+HTML Form Tags
+Tag 		Description
+<form> 		Defines an HTML form for user input
+<input> 		Defines an input control
+<textarea> 	Defines a multiline input control(text area)
+<button> 		Defines a clickable button
+<select> 		Defines a drop-down list
+<optgroup> 	Defines a group of related options in a drop-down list
+<option> 		Defines an option in a drop-down list
+<label> 		Defines a label for an <input> element
+<fieldset> 	Groups related elements in a form
+<legend> 		Defines a caption for a <fieldset> element
+
+==================================================
+Fieldname	Keyword		Syntax
+==================================================
+text box		text		<input type="text">
+password box	password		<input type="password">
+checkbox		checkbox		<input type="checkbox">
+radio button	radio		<input type="radio">
+submit button	submit		<input type="submit">
+reset button	reset		<input type="reset">
+text area		textarea		<textarea></textarea>
+==================================================
+
+Input Fields Attributes and  Parameters
+Attributes	Parameters
+name		any name
+value		any value
+placeholder	Any Value (HTML5)
+size		pixels
+maxlength	number
+readonly		true, false
+disabled		disabled
+rows		number
+cols		number
+checked		checked
+multiple		true, false
+
+Example:
+<body>
+<form>
+First name: <input type="text" name="FirstName" value="SubbaRaju" /><br />
+Last name: <input type="text" name="LastName" value="nareshit" /><br />
+Password: <input type="password" name="password"  value="ramarama"/><br/>
+CheckBox: <input type="checkbox" name="checkbox"  value="check"/><br/>
+RadioButton: <input type="radio" name="Radio"  value="Male"/><br/>
+Reset: <input type="reset" name="Reset"  value="ClickMe"/><br/>
+TextArea: <input type="textarea" name="TextArea"  value="Ramarama"/><br/>
+<input type="submit" value="Submit" />
+</form>
+</body>
+
+<textarea> Tag Attributes
+It is multiline text box for more information...!!
+Attributes    Value	     Description
+cols	  "Number"    Define the Specify number of character visible in one line of Text Area
+rows	  "Number"   Define the Specify number of lines visible in  text area.
+name	  "Message"  Specify unique name for the input element.
+
+Example4
+<html>
+<title>
+Welcome to Forms Programming
+</title>
+<head>
+<center><h1>Naresh i Technologies</h1></center>
+</head>
+<body>
+<textarea rows=6 cols=20>
+Naresh i technologies offering all software courses like QA Unix HTML Oracel Sqlserver Java .NET Sharepoint Testing Tools Android..
+</textarea>
+
+HTML <select> Tag
+It is used to create a drop-down list. The <option> tags inside the <select> element define the available options in the list.  It is a paired tag.
+
+Syntax:
+<select>.......................</select>
+
+Attributes
+Attribute 	Value 	Description
+disabled 	disabled 	Specifies that a drop-down list should be disabled
+multiple 	multiple 	Specifies that multiple options can be selected at once
+name 	name 	Defines a name for the drop-down list
+size	number 	Defines the number of visible options in a drop-down list
+
+HTML <optgroup> Tag
+It is used to group related options in a drop-down list. If you have a long list of options, groups of related options are easier to handle for a user. It is a paired tag.
+
+Syntax:
+<optgroup>.................................</optgroup> 
+
+Attributes
+Attribute 	Value 	Description
+disabled 	disabled 	Specifies that an option-group should be disabled
+label 	text 	Specifies a label for an option-group
+
+HTML <option> Tag
+It defines an option in a select list.  It is a paired tag.
+
+Syntax
+<option>....................................</option> 
+
+Attributes
+Attribute 	Value 	Description
+disabled 	disabled 	Specifies that an option should be disabled
+label 	text 	Specifies a shorter label for an option
+selected 	selected 	Specifies that an option should be pre-selected when the page loads
+value 	text 	Specifies the value to be sent to a server
+
+Example:
+<html>
+<body>
+<select>
+<optgroup label="Swedish Cars">
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+</optgroup>
+</select>
+ </body>
+</html>
+
+Example:
+<html>
+<body>
+<select>
+<optgroup label="Swedish Cars">
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+</optgroup>
+<optgroup label="Select Your Hobby">
+<option value="cricket">Cricket</option>
+<option value="WatchTV">Watch Tv </option>
+<option value="PlayGame">Play Game</option>
+<option value="Reading">Reading</option>
+<option value="Int">Internet Surfing</option>
+</optgroup>
+</select>
+</form >
+</body>
+</html>
+
+List Box:
+HTML <select> multiple Attribute
+The multiple attribute is a boolean attribute. It specifies that multiple options can be selected at once.
+
+Syntax
+<select multiple> 
+
+Example:
+<html>
+<body>
+<form>
+<select name="cars" multiple>
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="opel">Opel</option>
+<option value="audi">Audi</option>
+</select>
+<input type="submit"  value="NextPage">
+</form>
+</body>
+</html>
+
+HTML <select> size Attribute
+The size attribute specifies the number of visible options in a drop-down list.
+
+Syntax
+<select size="number">
+
+Attribute Values
+Value 	Description
+number 	The number of visible options in the drop-down list. Default value is 1. If the multiple attribute is present, the default value is 4
+
+Example:
+<html>
+<body>
+<select size="3">
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="opel">Opel</option>
+<option value="audi">Audi</option>
+</select>
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------
+HTML <select> Tag
+It is used to create a drop-down list. The <option> tags inside the <select> element define the available options in the list.  It is a paired tag.
+
+Syntax:
+<select>.......................</select>
+
+Attributes
+Attribute 	Value 	Description
+disabled 	disabled 	Specifies that a drop-down list should be disabled
+multiple 	multiple 	Specifies that multiple options can be selected at once
+name 	name 	Defines a name for the drop-down list
+size	number 	Defines the number of visible options in a drop-down list
+
+HTML <optgroup> Tag
+It is used to group related options in a drop-down list. If you have a long list of options, groups of related options are easier to handle for a user. It is a paired tag.
+
+Syntax:
+<optgroup>.................................</optgroup> 
+
+Attributes
+Attribute 	Value 	Description
+disabled 	disabled 	Specifies that an option-group should be disabled
+label 	text 	Specifies a label for an option-group
+
+HTML <option> Tag
+It defines an option in a select list.  It is a paired tag.
+
+Syntax
+<option>....................................</option> 
+
+Attributes
+Attribute 	Value 	Description
+disabled 	disabled 	Specifies that an option should be disabled
+label 	text 	Specifies a shorter label for an option
+selected 	selected 	Specifies that an option should be pre-selected when the page loads
+value 	text 	Specifies the value to be sent to a server
+
+Example:
+<html>
+<body>
+<select>
+<optgroup label="Swedish Cars">
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+</optgroup>
+</select>
+ </body>
+</html>
+
+Example:
+<html>
+<body>
+<select>
+<optgroup label="Swedish Cars">
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+</optgroup>
+<optgroup label="Select Your Hobby">
+<option value="cricket">Cricket</option>
+<option value="WatchTV">Watch Tv </option>
+<option value="PlayGame">Play Game</option>
+<option value="Reading">Reading</option>
+<option value="Int">Internet Surfing</option>
+</optgroup>
+</select>
+</form >
+</body>
+</html>
+
+List Box:
+HTML <select> multiple Attribute
+The multiple attribute is a boolean attribute. It specifies that multiple options can be selected at once.
+
+Syntax
+<select multiple> 
+
+Example:
+<html>
+<body>
+<form>
+<select name="cars" multiple>
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="opel">Opel</option>
+<option value="audi">Audi</option>
+</select>
+<input type="submit"  value="NextPage">
+</form>
+</body>
+</html>
+
+HTML <select> size Attribute
+The size attribute specifies the number of visible options in a drop-down list.
+
+Syntax
+<select size="number">
+
+Attribute Values
+Value 	Description
+number 	The number of visible options in the drop-down list. Default value is 1. If the multiple attribute is present, the default value is 4
+
+Example:
+<html>
+<body>
+<select size="3">
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="opel">Opel</option>
+<option value="audi">Audi</option>
+</select>
+</body>
+</html>
+
+Radio Button Control
+Radio buttons are used when out of many options, just one option is required to be selected. They are also created using HTML <input> tag but type attribute is set to radio.
+
+Syntax:
+<input type='radio'/>
+
+Example5
+<form>
+<label>What is your favourites Web browser..!</label>
+<input type="radio" name="browser" /> Internet Explorer 
+<input type="radio" name="browser"  /> Google Chrome
+<input type="radio" name="browser" /> Mozilla Firefox
+</form>
+
+Checkbox Control
+Checkboxes are used when more than one option is required to be selected. They are also created using HTML <input> tag but type attribute is set to checkbox..
+
+Syntax:
+<input type='checkbox'/>
+
+Example:
+<form>
+<label>Select your hobby...!!</label>
+<input type="checkbox" name="cricket" /> Cricket 
+<input type="checkbox" name="watchtv" /> Watch TV 
+<input type="checkbox" name="playgame"  /> Play Game
+<input type="checkbox" name="inserf"  /> Internet Browsing 
+</form>
+
+Button Controls
+There are various ways in HTML to create clickable buttons.
+Type	Description
+submit	This creates a button that automatically submits a form.
+reset	This creates a button that automatically resets form controls to their initial values.
+button	This creates a button that is used to trigger a client-side script when the user clicks 	that 	button.
+
+Example:
+<!doctype html>
+<body>
+<form action="https://www.nareshit.com" name='myform' id="form1" >
+<label>User Name:</label><br/>
+<input type='text' name='uname' required="requried" /><br/>
+<label>Password:</label><br/>
+<input type='password' name='pwd' required="requried" /><br/>
+<input type='submit' name='sn' value="SignIn"/>
+<input type='reset' name='can' value="Cancel"/>
+<button onclick="alert('UserClickedMe')"> Click_Me </button>
+</form>
+</body>
+
+Example:
+<!doctype html>
+<body>
+<form action="nit1.html" name="myform" id="form1">
+<label>User Name: </label> <br/>
+<input type="text" name="uname"> <br/>
+<label>Password: </label> <br/>
+<input type="password" name="pwd"> <br/>
+<input type="submit" name="sn">
+<input type="reset" name="clr">
+<button onclick="alert('Hello')">Click</button>
+<input type='image' src="html5.png" width="10px" height="10px"/>
+</form>
+</body>
+
+<fieldset>
+It defines a group of form elements as being logically related. The browser draws a box around the set of fields to indicate that they are related. It is a paired tag.
+
+Syntax: 
+<fieldset>...................</fieldset>
+
+Example:
+<fieldset>
+favorite area: <input name="favegame"><br>
+<input type=checkbox name="cricket"> like cricket<br>
+<input type=checkbox name="chess"> like chess<br>
+<input type=checkbox name="java"> like software<br>
+</fieldset><p>
+
+<legend> 
+It is used with <fieldset> to give a title to each set of fields. It is a paired tag.
+
+Syntax: 
+<legend>.............</legend>
+
+Attributes 	 Parameters
+align 		right, center, left
+
+Example:
+<FIELDSET>
+<LEGEND>Personal Stuff</LEGEND><P>
+name: <INPUT NAME="realname"><BR>
+email: <INPUT NAME="email">
+</FIELDSET>
+
+Forms and Table:
+<html>
+<head>
+<title>
+Working with table
+</title>
+</head>
+<table bgcolor="lightblue" height="10%" width="250">
+<tr><td>User Name:</td><td><Input placeholder="Name"></td></tr>
+<tr><td>Password:</td><td><Input type="password" placeholder="password"></td></tr
+<tr><td>&nbsp</td><td><Input type="button" value=Login ></td></tr>
+</table>
+
+Introduction HTTP:
+It is designed to enable communications between clients and servers.HTTP works as a request-response protocol between a client and server. A web browser may be the client, and an application on a computer that hosts a web site may be the server.
+
+Block Diagram of HTTP:
+
+HTTP Request Methods:
+Two commonly used methods for a request-response between a client and server are: 
+1 GET 
+2 POST
+    
+Action Attribute:
+This attribute is used to specify the URL of the server page to which we want to send our form data.
+
+Syntax:
+<form name="myform" action="user.aspx">
+
+i. get:-
+In this method, we dont have security for our data and only limited data can be sent to the server page. This is the default method of the form. It can carry raw data from client to server
+(rawdata ==> the data which is understandable to user)
+
+Syntax:
+<form  action="page.py" method="get">
+
+When to use GET?
+Information sent from a form with the GET method is visible to everyone (all variable names and values are displayed in the URL). GET also has limits on the amount of information to send. The limitation is about 2048 characters. However, because the variables are displayed in the URL, it is possible to bookmark the page. This can be useful in some cases. GET may be used for sending non-sensitive data.
+
+Note: GET should NEVER be used for sending passwords or other sensitive information!
+
+Example:1
+<body>
+<form action="nit.html" method="get" name='myform'>
+<label>User Name:</label> <br/>
+<input type='text' name="user"><br/>
+<label>Password:</label> <br/>
+<input type="password" name="pass"><br/>
+<input type="Submit" value="Sign-In">
+<input type="reset" value="Cancel">
+</form>
+</body>
+
+Some other notes on GET requests:
+1 GET requests can be cached
+2 GET requests remain in the browser history
+3 GET requests can be bookmarked
+4 GET requests should never be used when dealing with sensitive data
+5 GET requests have length restrictions
+
+The POST Method
+In this method, we have security for our data and we can send bulk of data to the server. It can carry encrypted data from client to server page. (Encrypted means machine understandable format).
+
+Syntax:
+<form  method="post">
+
+When to use POST?
+Information sent from a form with the POST method is invisible to others (all names/values are embedded within the body of the HTTP request) and has no limits on the amount of information to send. Moreover POST supports advanced functionality such as support for multi-part binary input while uploading files to server.
+
+Example:
+<body>
+<form action="nit.html" method="post" name='myform'>
+<label>User Name:</label> <br/>
+<input type='text' name="user"><br/>
+<label>Password:</label> <br/>
+<input type="password" name="pass"><br/>
+<input type="Submit" value="Sign-In">
+<input type="reset" value="Cancel">
+</form>
+</body>
+
+1 POST requests are never cached
+2 POST requests do not remain in the browser history
+3 POST requests cannot be bookmarked
+4 POST requests have no restrictions on data length
+
+Difference between GETand POST:
+GET				POST
+Data is visible on URL address		Not visible post information
+Unsecured		   	highly secured
+Excellent Peformance	   	Good Performance
+Transfer limited amount of data    	TransferHugeAmountOfData
+Unable to Upload file	    	We can Upload files
+Can be cached			Not cached
+
+HTTP Status Messages
+1xx: Information
+Message:		Description:
+100 Continue	 The server has received the request headers, and the client 					should   proceed to send the request body.
+101 		Switching Protocols The requester has asked the server to switch 					protocols.
+
+2xx: Successful
+Message:			Description:
+200 OK			The request is OK (this is the standard response for successful (HTTP 					requests)
+201 Created		The request has been fulfilled, and a new resource is created. 
+202 Accepted		The request has been accepted for processing, but the 						processing has not been completed
+
+3xx: Redirection
+Message:			Description:
+300 Multiple Choices	A link list. The user can select a link  and go to that location. 
+301 Moved Permanently 	The requested page has moved to a newURL 
+302 Found		The requested page has moved temporarily to a new URL 
+303 See Other		The requested page can be found under a different URL
+
+4xx: Client Error
+Message:			Description:
+400 Bad Request		The request cannot be fulfilled due to bad syntax
+401 Unauthorized		The request was a legal request,but the server is refusing to 						respond to it.
+404 Not Found		The requested page could not be found but may be available 						again in the future.
+
+5xx: Server Error
+Message:			Description:
+500 Internal Server Error	A generic error message, given when no more specific message 					is suitable.
+502 Bad Gateway		The server was acting as a gateway or proxy and received an 					invalid response from the upstream server
+503 Service Unavailable	The server is currently unavailable (overloaded or down)
+
+
+1xx ==>199 ==> Information Related Messages
+2xx==>299 ==> Successful Messages
+3xx==>399 ==> Redirection Messages
+4xx==>499 ==> Client Side Messages
+5xx==>599 ==>Server Side Messages
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Frames
+Frames can be used to embed multiple HTML files in a single Page or Window. Frames are developed by Netscape. In HTML the following list of frame tags existed..!!
+
+Tag 		Description
+<frame>		Deprecated
+<frameset>	Deprecated
+<noframes> 	Deprecated
+<iframe>html5	Defines an inline frame
+
+<frameset>
+Using this tag we can divided the web page as multiple frames. In each frame we can display another web site. Frameset tag is a paired tag. 
+
+Syntax: 
+<frameset>--------------</frameset>
+
+Attributes		Parameters
+rows		pix, %
+cols		pix, %
+border		pix
+bordercolor	any color name/HexaDecimalCode
+
+<frame> 
+This tag is used to called external webpages. It contains src property to specify the path of external web page. Using frames we can place and view multiple files in a single window. Each and every frame will have its own scrollbars.It is a non-paired tag.
+
+Syntax: <frame>
+
+Attributes	Parameters
+src		File path, External Res. 
+name		any name
+scrolling		yes, no,default
+
+Example
+<frameset rows= "50%, 50%">
+<frame src="http://www.myweb.com">
+<frame src="http://www.etours.com">
+</frameset>
+
+Advantages:
+1. Frames are useful in a site whose contents are expected to change frequently.
+2. Frames can give a targeted area of your site a functional coherence.
+3. Frames can be used as a shortcut for scrolling within a single page
+
+Example:
+<frameset rows= "50%, 50%" cols="40%,*">
+<frame src="http://www.google.co.in">
+<frame src="http://www.gmail.com">
+<frame src="http://www.nareshit.com">
+<frame src="http://www.nareshit.in">
+</frameset>
+
+Note: ***We dont have body part in the frames.
+
+YES - Turns the scroll bar on.
+NO - Turns the scroll bar off.
+AUTO - Web page detect if needed.
+
+Example:
+<FRAMESET ROWS="50%,50%">
+<FRAME SRC="http://www.nareshit.com" SCROLLING="YES">
+<FRAME SRC="http://www.india.com" SCROLLING="NO">
+</FRAMESET> 
+
+Frame Errors
+The majority of browsers commonly support frames. there are some old browser versions that do not. In these cases, you are able to specify an error message if for some reason the frame fails to load. 
+
+To specify any message if the frame fails to load, insert the tag <noframes>. The BODY tags should be placed between the two tags, and within the body tags, should be the HTML that will replace the frames. 
+
+Syntax: <noframes>------------</noframes>
+
+Example:
+<FRAMESET ROWS="50%,50%">
+<FRAME SRC="http://www.licindia.com">
+<FRAME SRC="http://www.yatra.com">
+</FRAMESET>
+</HEAD>
+<NOFRAMES> <BODY>
+Sorry, your browser does not support frames.
+</BODY> 
+</NOFRAMES>
+
+Frame Border
+The frame border is  separates different frames on a web page. You are able to modify the appearance of the border.
+
+Border Width
+To change the width of the borders on your page, insert the line BORDER="#".
+
+Syntax:   <FRAMESET  BORDER="#">
+
+Example:
+<FRAMESET ROWS="50%,50%" border=20>
+<FRAME SRC="http://www.nareshit.com">
+<FRAME SRC="http://www.india.com">
+</FRAMESET>
+
+Dis-advantages:
+1. Frames are Not "Search Engine Friendly"
+2. Frames are Not "URL Friendly"
+3. Frames are Not as Accessible
+4. Bookmarks
+5. Accessibility
+6. Design
+7. Linking Issues
+8. The user's back button often doesn't work.
+9. Frames often reduce the amount of usable space on the page.
+10. The URL in the address bar always stays the same
+11. Frames create problems with printing.
+12. Some browsers do not support frames properly at all.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Example:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML forms</title>
+</head>
+<body>
+  <iframe src="html5.png" scrolling="no" align="right" 
+  width="200px" height="200px" name="frame" frameborder="0">
+    <p>OOPs Ur browser iframe not supporting.....................!!</p>
+  </iframe>
+</body>
+</html>
+
+Example:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML forms</title>
+</head>
+<body>
+  <img src="smiley.png" width=100px height=200px border=2px align='left'/>
+  <img src="butterfly.gif" width=100px height=200px border=1px align='right'/>
+  <img src="https://www.google.co.in/images/branding/googlelogo/1x/googlelogo_white_background_color_272x92dp.png" width=250px height=200px border=4px align='right'/>
+</body>
+</html>
+
+Example:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML forms</title>
+</head>
+<body>
+  <img src="html5.png" width=100px height=200px alt="SorryNoImageExisted"
+vspace=50px hspace=100px/>
+</body>
+</html>
+
+Example:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML forms</title>
+</head>
+<body>
+  <p>HTML5 Logo
+    <img src="html5.png" alt="SorryNoIage" align="top" width="100px" height="100px" />
+    From W3C and WHATWG".</p>
+
+  <p>HTML5 Logo
+      <img src="html5.png" alt="SorryNoIage" align="middle" width="100px" height="100px" />
+      From W3C and WHATWG".</p>
+
+  <p>HTML5 Logo
+        <img src="html5.png" alt="SorryNoIage" align="bottom" width="100px" height="100px" />
+        From W3C and WHATWG".</p>
+</body>
+</html>
+
+Example:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML forms</title>
+</head>
+<body>
+  <p>HTML5 Logo
+    <img src="nit.jpg" alt="SorryNoIage" align="top" width="100px" height="100px" />
+    From W3C and WHATWG".</p>
+
+  <p>HTML5 Logo
+      <img src="nit.jpg" alt="SorryNoIage" align="middle" width="100px" height="100px" />
+      From W3C and WHATWG".</p>
+
+  <p>HTML5 Logo
+        <img src="nit.jpg" alt="SorryNoIage" align="bottom" width="100px" height="100px" />
+        From W3C and WHATWG".</p>
+</body>
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+HTML5 <iframe> Tag:
+iframes defines an inline frame. It enables you present another HTML document within the same window. Typically the iframe takes up a small portion of the document. Inline frames are often used in audio, video & advertising. It is a paired tag.
+
+Syntax: 
+<iframe>-------------</iframe>
+
+Attributes	Parameters
+src		The path of url/image
+scrolling		auto, yes, no
+align		left,right,top,middle,bottom
+height		pix or %
+width		pix or %
+name		name 
+frameborder	1,0
+
+Example:
+<html>
+<body>
+<iframe src="http://www.nareshit.com">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+</body>
+</html>
+
+Example:
+<!doctype html>
+<body>
+<iframe src='devstories.webm' scrolling='no' align="right" width="100px" height="100px" name='html5logo'  frameborder='0'>
+<p>OOPs Your Browser not supporting iframe tag..</p>
+</iframe>
+</body>
+---------------------------------------------------------------------------------------------------------------------
+HTML <img> tag:
+It is used to insert images in the web page. It is a non-paired tag or an empty tag.
+
+Syntax:	<img> or <img/>
+
+Attribute 	Value 	Description
+align 	top
+	bottom
+	middle
+	left
+	right 	Specifies the alignment of an image according to surrounding elements
+alt 	text 	Specifies an alternate text for an image
+border 	pixels 	Specifies the width of the border around an image
+height 	pixels 	Specifies the height of an image
+src 	URL 	Specifies the URL of an image
+width 	pixels 	Specifies the width of an image
+vspace 	pixels 	Specifies the whitespace on top and bottom of an image
+hspace 	pixels 	Specifies the whitespace on left and right side of an image
+
+		
+Note:
+1. In the image tag, the left and right alignments applied to the image.
+2. The top, middle and bottom alignments applied to the text along with the image.
+
+Example:
+<html>
+<Title>
+Welcome to Naresh i Technologies
+</Title>
+<Head>
+<b><h1 align="center">I am Learning Web Language HTML</b></h1>
+</Head>
+<body>
+<img src="firefox35.png" width=250 height=250 alt="SubbaRaju" vspace="60%" hspace="60%" border=20pix>
+</body>
+</html>
+
+Example
+<html>
+<Title>
+Welcome to Naresh i Technologies
+</Title>
+<Head>
+<b><h1 align="center">I am Learning Web Language HTML</b></h1>
+</Head>
+<body>
+<p>Insert an image from another folder:</p>
+<img src="/Images/Opera.png" alt="Sunset" width="24" height="39" />
+<p>Insert an image from a web site:</p>
+<img src="http://st1.india.com/uploaded_images/colleges/widget_35445_4_288X162.jpg" alt="Certified" width="100" height="100" />
+</body>
+</html>
+
+Example:
+<html>
+<Title>
+Welcome to Naresh i Technologies
+</Title>
+<Head>
+<b><h1 align="center">I am Learning Web Language HTML</b></h1>
+</Head>
+<body>
+<p>An image 
+<img src="chrome.png" alt="GoogleChrome" align="bottom" width="64" height="64" />
+with align="bottom".</p>
+
+<p>An image
+<img src="chrome.png" alt="GoogleChrome" align="middle" width="64" height="64" /> 
+with align="middle".</p>
+
+<p>An image 
+<img src="chrome.png" alt="GoogleChrome" align="top" width="64" height="64" />
+with align="top".</p>
+
+<p><b>NOTE:</b> align="bottom" is default!</p>
+<p><img src="chrome.png" alt="GoogleChrome" width="64" height="64" />
+An image before the text.</p>
+<p>An image after the text. 
+<img src="chrome.png" alt="GoogleChrome" width="64" height="64" /></p>
+</body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+HTML Anchor Tag
+<a> Tag:
+It defines a hyperlink, which is used to link resources from one page to another. Links are used to navigate easily from webpage to webpage or webpage to website, etc., It is a paired tag.
+
+Syntax:	<a>--------------</a>
+
+In html, links are classified into two types:
+	1.) Internal links
+	2.) External links
+
+Internal Links:
+Linking within the page or within the website is called as internal linking.
+
+External Links:
+Linking to external files (other documents, sites, webpages, etc.,) is called as external linking.To create links, we use anchor tag. It is a paired tag.
+
+Attributes
+Attribute 		Value 		Description
+href 		URL 		Specifies the URL of the page the link goes to
+name 		section_name 	Specifies the name of an anchor
+title		Any Value	It describes the link and shows description when 						hovering over the link.
+target 		_blank (NewTab.NewPage)
+		_parent (defalt)
+
+NOTE: download attribute I will show with Java Script...!!
+
+Text Links
+A text link allows the programmer to create text that acts as a link, so that when it is clicked on by a user, it will transfer them to another web page. 
+
+Example
+<html>
+<Title>
+Welcome to Naresh i Technologies
+</Title>
+<Head>
+<body>
+<a href="http://www.nareshit.com">Goto NiT Application</a>
+</body>
+</html>
+
+Target Page
+The target page feature, allows a link to be created that when clicked on, will open a new browser window, so that the user will then have two windows in front of them, one, being the page with the link, and the other, the page the link went to. 
+
+Example
+<html>
+<Title>
+Welcome to Naresh i Technologies
+</Title>
+<Head>
+<body>
+<a href="http://www.nareshit.com" target="_blank">goto NiT App</a>
+</body>
+</html>
+
+Picture Links
+A picture link allows the programmer to create a picture that acts as a link, so that when it is clicked on by a user, it will transfer them to another web page. 
+
+Picture Link
+This tag allows you to make pictures into links. The tag looks like <A HREF="url">. The starting tag is <A HREF="url"> and the closing tag is </A>. Between these two tags is where you put the picture tag.
+
+Example:
+	<html>
+	<body>
+	<A HREF="http://www.nareshit.com">
+	<IMG SRC="nitlogo.png">
+	</A>
+	</body>
+	</html>
+
+HTML Mailto Link:
+Link can also be used to link in the E-Mail address. href attributes value is set with mailto followed by E-Mail address. When click on E-Mail link, it will open E-Mail application. E-Mail link is used to inform where to send E-Mail, Subject of E-Mail and Text Message.
+
+Example:
+<!doctype html>
+<body>
+<h1>POP Mail Link..</h1>
+<a href="mailto:ksrajupy@gmail.com">ClickMail</a>
+<h6>Thank You</h6>
+</body>
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Lists in html:
+In html, we are having three types of lists.
+	1. Ordered list
+	2. Unordered list
+	3. Definition list
+
+Ordered list:
+It is also called as numbered list. It is used to give numbering to the list items. It is a paired tag.
+
+Syntax:	<ol>--------------</ol>
+
+To specify the list items we use li tag. It is also a paired tag.
+
+Syntax:	<li>--------------</li>
+
+Attibutes		Parameters
+type		i, I, a, A, 1
+start		any number
+
+Example1:
+<html>
+<title>
+Welcome to NiT
+</title>
+<head>
+Working with LISTS
+</head>
+<body>
+<h4>An Ordered List:</h4>
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+</body>
+</html>
+
+Example:2
+<html>
+<title>
+Welcome to NiT
+</title>
+<head>
+<center><h1>Working with LISTS and Course Names</h1></center>
+</head>
+<body>
+<h4>Numbered list: with courses</h4>
+<ol>
+ <li>Java</li>
+ <li>ORACLE</li>
+ <li>QA</li>
+ <li>UNIX</li>
+</ol>  
+
+<h4>Letters list:</h4>
+<ol type="A">
+ <li>.NET</li>
+ <li>COREJAVA</li>
+ <li>J2EE</li>
+ <li>HTML</li>
+</ol>  
+
+<h4>Lowercase letters list:</h4>
+<ol type="a">
+ <li>Android</li>
+ <li>iPhone</li>
+ <li>Selenium</li>
+ <li>TestingTools</li>
+</ol>  
+
+<h4>Roman numbers list:</h4>
+<ol type="I">
+ <li>SqlServer</li>
+ <li>MySql</li>
+ <li>SEQUEL</li>
+ <li>TSQL</li>
+ <li>PL/SQL</li>
+</ol>  
+
+<h4>Lowercase Roman numbers list:</h4>
+<ol type="i">
+<li>SqlServer</li>
+ <li>MySql</li>
+ <li>SEQUEL</li>
+ <li>TSQL</li>
+ <li>PL/SQL</li>
+</ol>  
+</body>
+</html>
+
+Unordered list:
+It is also called as bulleted list. It is used to give bullets to the list items. It is a paired tag.
+
+Syntax:	<ul>-------------</ul>
+
+To specify the list items we use li tag. It is also a paired tag.
+
+Syntax:	<li>-------------</li>
+
+Attributes	Parameters
+type		disc, circle, square
+
+Example:	
+<html>
+<body>
+<h4>An Unordered List:</h4>
+<ul>
+  <li>SQL</li>
+  <li>TSQL</li>
+  <li>PLSQL</li>
+</ul>
+</body>
+</html>
+
+Example2:
+<html>
+<title>
+Welcome to NiT
+</title>
+<head>
+<center><h1>Working with LISTS and Course Names</h1></center>
+</head>
+<body>
+
+<h4>Disc bullets list:</h4>
+<ul type="disc">
+<li>SqlServer</li>
+ <li>MySql</li>
+ <li>SEQUEL</li>
+ <li>TSQL</li>
+ <li>PL/SQL</li>
+</ul>  
+
+<h4>Circle bullets list:</h4>
+<ul type="circle">
+<li>SqlServer</li>
+ <li>MySql</li>
+ <li>SEQUEL</li>
+ <li>TSQL</li>
+ <li>PL/SQL</li>
+</ul>  
+
+<h4>Square bullets list:</h4>
+<ul type="square">
+<li>SqlServer</li>
+ <li>MySql</li>
+ <li>SEQUEL</li>
+ <li>TSQL</li>
+ <li>PL/SQL</li>
+</ul>  </body>
+</html>
+
+Definition list:
+It is also called as discriptive list. It is used to give definitions to definition terms. It is a paired tag.
+
+Syntax:	<dl>--------------</dl>
+
+To specify definition term, we use dt tag.It is a paired tag
+
+Syntax:	<dt>--------------</dt>
+
+To specify definition data, we use dd tag. It is a paired tag
+
+Syntax:	<dd>--------------</dd>
+
+Example:
+<html>
+<title>
+Welcome to NiT
+</title>
+<head>
+<center><h1>Working with LISTS and Course Names</h1></center>
+</head>
+<body>
+<h4>A Definition List:</h4>
+<dl>
+  <dt>.NET</dt>
+  <dd>It is a kind of FRAMEWORK</dd>
+  <dt>Android</dt>
+  <dd>Operating System from Google</dd>
+</dl>
+</body>
+</html>
+
+Example2:
+<html>
+<title>
+Welcome to NiT
+</title>
+<head>
+<center><h1>Working with LISTS and Course Names</h1></center>
+</head>
+<body>
+<html>
+<body>
+<h4>A nested List:</h4>
+<ul>
+  <li>Course</li>
+  <li>Languages
+    <ul>
+    <li>C</li>
+    <li>C++</li>
+   <li>Java</li>
+    </ul>
+  </li>
+  <li>Scripts
+<ul>
+    <li>JavaScript</li>
+    <li>VBScript</li>
+   <li>Shell Script</li>
+  <li> PERL Script</li>
+    </ul>
+  </li>
+</ul>
+</body>
+</html>
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+HTML Tables
+Tables are used to represent our data in a tabular format. The best way to split a page into different sections is to use tables. In HTML, to represent tables we use table tag. It is a paired tag.
+
+
+Syntax:	<table>-----------</table>
+
+Example:
+<table>
+------
+------
+</table>
+
+Table rows:
+The horizontal lines present in the tables are called as table rows. To represent table rows, we use tr tag. It is a paired tag.
+
+Syntax:	<tr>--------------</tr>
+
+Example:
+<table>
+<tr>
+-----
+-----
+</tr>
+</table>
+
+Table Cells
+Each row consists of a number of cells. Each cell defined by a tag. The tag looks like <td>. It is a paired tag.
+
+Syntax:	
+<td>--------------</td>
+
+Example:
+<table>
+<tr>
+<td>SNo.</td>
+<td>SName</td>
+</tr>
+<tr>
+<td>101</td>
+<td>NiT</td>
+</tr>
+<tr>
+<td>102</td>
+<td>KSRaju</td>
+</tr>
+</table>
+
+Table Headings:
+To represent table headings we are using th tag. It is a paired tag.
+
+Syntax:
+<th>-----------------</th>
+
+Example:
+<table>
+<tr>
+<th>SNo.</th>
+<th>SName</th>
+</tr>
+<tr>
+<td>101</td>
+<td>NiT</td>
+</tr>
+<tr>
+<td>102</td>
+<td>KSRaju</td>
+</tr>
+</table>
+
+<caption>
+It represents the title of the table that is its parent, if it has a parent and that is a table element. It is a paired tag.
+
+Syntax:	
+<caption>-----------------</caption>
+
+Example:
+<table>
+  <caption>
+    <p>table 1. Sample table</p>
+  </caption>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>4</td>
+  </tr>
+</table>
+
+Attributes	Parameters
+border		pixels
+bordercolor	any color/Color code(hexa)
+bgcolor		any color/Color code(hexa)
+background	image path
+height		pixels or %
+width		pixels or %	
+rules		rows, cols, all, none
+cellspacing	pixels
+cellpadding	pixels
+align		left, right, center
+valign		top, middle, bottom
+rowspan		number
+colspan		number
+
+Cellspacing-->This attribute is used to change the spacing between the cells.
+Cellpadding-->This attribute is used to change the space between the content to the inner edges of the cell.
+
+Example:
+<table border=1>
+<tr>
+<td>cell1</td>
+<td>cell2</td>
+</tr>
+<tr>
+<td>cell3</td>
+<td>cell4</td>
+</tr>
+</table>
+
+Example2:
+<table border=1>
+<tr>
+<th>Name</th>
+<th>Number</th>
+</tr>
+<tr>
+<td>Raju</td>
+<td>1001</td>
+</tr>
+<tr>
+<td>Raju</td>
+<td>1001</td>
+</tr>
+</table>
+
+Height and Width 
+Specifying the width and height on your tables can make your pages much easier to control.
+
+Pixels and Percents
+There are two ways of marking the width and height of your tables. One way is by specifying a certain number of pixels. The other is by marking the width and height using percents. Pixels, will make it a certain length, and stay there. Percents, will take up a certain percent of the browser window, meaning it may change depending on your screen resolution.
+
+Pixels (px): Pixels are fixed-size units that are used in screen media. One pixel is equal to one dot on the computer screen. One problem with the pixel unit is that it does not scale upward for visually-impaired readers or downward to fit mobile devices.
+
+Percent (%): The percent unit is much like the “em” unit . While using the percent unit, your text remains fully scalable for mobile devices and for accessibility.
+
+Example1
+<TABLE width=50% height=50% BORDER=1>
+<TR>
+   <TD>lemons</TD>
+   <TD>grapefruit</TD>
+   </TR>
+<TR>
+   <TD>bananas</TD>
+   <TD>pineapple</TD>
+   </TR>
+</TABLE>
+
+
+Example2:
+<TABLE  BORDER=1>
+<TR>
+   <TD height=100>lemons</TD>
+   <TD>grapefruit</TD>
+   </TR>
+<TR>
+   <TD height=100 width=100>bananas</TD>
+   <TD>pineapple</TD>
+   </TR>
+</TABLE>
+
+Example3
+<table width="500" border="5">
+   <tr>
+  <td width="25%">Column 1</td>
+  <td>Column 2</td>
+   </tr>
+   <tr>
+   <td>Column 1</td>
+  <td>Column 2</td>
+  </tr>
+   <tr>
+   <td>Column 1</td>
+   <td>Column 2</td>
+   </tr>
+</table> 
+
+Example4: Table Rules
+<table border="5" rules=rows>
+<tr>
+<td>Row 1</td>
+<td>Row 1</td>
+<td>Row 1</td>
+</tr>
+<tr>
+<td>Row 2</td>
+<td>Row 2</td>
+<td>Row 2</td>
+</tr>
+</table>
+
+With Empty Cells
+<html>
+<body>
+<table border="1">
+<tr>
+  <td>HTML</td>
+  <td>CSS</td>
+</tr>
+<tr>
+  <td>&nbsp</td>
+  <td>JavaScript</td>
+</tr>
+</table>
+</body>
+</html>
+
+Cell Padding
+Cell Padding controls the distance between the text in the cell and the edge of the cell. To specify cell padding and it's distance, you add the line CELLPADDING="X" to the <TABLE> tag so the final result looks like:
+
+   Syntax:  <TABLE CELLPADDING="X"> 
+
+Example:
+<TABLE CELLPADDING="15">
+<TR> 
+<TD> Cell 1 </TD> 
+<TD> Cell 2 </TD> 
+</TR>
+<TR> 
+<TD> Cell 3 </TD> 
+<TD> Cell 4 </TD> 
+</TR>
+</TABLE> 
+
+Cell Spacing
+Cell Spacing controls the distance between the cells. To specify cell spacing and it's distance, you add the line CELLSPACING="X" to the <TABLE> tag so the final result looks like:
+
+Syntax:    <TABLE CELLSPACING="X"> 
+
+Example:
+<TABLE CELLSPACING="15">
+<TR> 
+<TD> Cell 1 </TD> 
+<TD> Cell 2 </TD> 
+</TR>
+<TR> 
+<TD> Cell 3 </TD> 
+<TD> Cell 4 </TD> 
+</TR>
+</TABLE>
+
+Example5:
+
+<table border="7" cellpadding="7" cellspacing="10">
+<tr bgcolor="#00FF00">
+<td><img src="rose.jpg" alt="rose"></td>
+<td>Image is a transparent .gif.</td>
+</tr>
+</table>  
+
+Example6:
+<table border="7" cellpadding="10" 
+cellspacing="10" bgcolor="red">
+<tr>
+<td>
+<table border="7" cellpadding="10" 
+cellspacing="10" bgcolor='blue'>
+<tr>
+<td><img src="fish1.gif" alt="smiley"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+Table Colors
+Making a table cell have a colorful background, Table color gives your entire table one color which is the background color to all the cells. To define the color of your table, you will need to add the line BGCOLOR="#xxxxxx" to the <TABLE> tag, so the final result looks like this.
+
+Syntax:	<TABLE BGCOLOR="#xxxxxx">
+
+Cell Color
+Cell color lets you define the background color of each individual cell on your table. To add color to one of your table cells, you will need to add the line BGCOLOR="#xxxxxx" to the <TD> tag that you want colored, so the final result looks like this.
+
+    Syntax: <TD BGCOLOR="#xxxxxx"> 
+
+Example:
+<table border=1>
+<tr>
+<th>Course</th>
+<th>Fee</th>
+</tr>
+<tr>
+<td bgcolor="pink">HTML</td>
+<td>5000</td>
+</tr>
+<tr>
+<td bgcolor="green">JavaScript</td>
+<td>5000</td>
+</tr>
+</table>
+
+Colspan and Rowspan
+These two features, Colspan and Rowspan, allow you to extend columns and rows across multiple other columns and rows .
+
+Column Span
+It extends cells on a horizontal row (left and right). 
+
+Syntax:    <TD COLSPAN="X">
+
+Example:
+<table border=2 bordercolor="pink" bgcolor="green">
+<tr>
+<th>Name</th>
+<th>Nos</th>
+</tr>
+<tr> 
+<td colspan="2"> Hello </td> 
+</tr>
+</table>
+
+Row Span
+Row Span extends cells on a vertical row (up and down). 
+
+Syntax:    <TD ROWSPAN="X">
+
+Example:
+<table border=2 bordercolor="pink" bgcolor="green">
+<tr> 
+<td rowspan="2"> Cell 1 </td>
+<td> cell 2 </td> 
+</tr> 
+<tr> 
+<td> cell 3 </td> 
+</tr>
+</table>  
+
+Table Alignment
+There are two main ways you can align text in a cell, horizontally and vertically. There are 3 ways of aligning it for both of these. Horizontally, you can align it left, right, and center. Vertically, you can align it top, bottom, and middle. 
+
+Align Left
+To align the text or objects in a cell to the left side of the cell, the line ALIGN="left" needs to be added to the <TD> tag, so the final result looks like this:
+
+Syntax:   <TD ALIGN="left"> 
+
+Example:
+<table border="1">
+  <tr>
+    <th>StdName</th>
+    <th>Grade</th>
+  </tr>
+  <tr>
+    <td align="right">NiT</td>
+    <td align="left">A++</td>
+  </tr>
+  <tr>
+    <td align="center">Nacre</td>
+    <td align="right">A</td>
+  </tr>
+</table>
+
+Vertical Align:
+<table border=4 bordercolor="red" bgcolor="teal">
+<tr> 
+<td rowspan="2" valign="top"> HTML </td>
+<td> CSS </td> 
+</tr> 
+<tr> 
+<td> JS </td> 
+</tr>
+</table> 
+
+Example: (Vertical Headers)
+<table border="1">
+  <tr>
+    <th>First Name:</th>
+    <td>NareshIT</td>
+  </tr>
+  <tr>
+    <th>Telephone:</th>
+    <td>04023746666</td>
+  </tr>
+</table>
+
+<colgroup>
+The <colgroup> element represents a group of one or more columns in the table that is its parent. It is a container tag.
+
+Syntax: <colgroup>..............</colgroup>
+
+Example:
+<table>
+  <colgroup span="2" style="background-color: #ff0000;"></colgroup>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+  </tr>  
+</table>
+
+ <col>
+The <col> element represents one or more columns in the column group represented by that colgroup. It is a container tag.
+
+Syntax: <col>..............</col>
+
+Example:
+<table>
+  <colgroup>
+    <col></col>
+    <col span="2" style="background-color: #ff0000;"></col>
+  </colgroup>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+  </tr>  
+</table>
+
+<tbody>
+The <tbody> element represents a block of rows that consist of a body of data for the parent table element, if the tbody element has a parent and it is a table. It is a container tag.
+
+Syntax: <tbody>..............</tbody>
+
+<thead>
+The <thead> element represents the block of rows that consist of the column labels (headers) for the parent table element, if the thead element has a parent and it is a table. It is a container tag.
+
+Syntax: <thead>..............</thead>
+
+Example:
+<table border=1>
+  <caption>
+    <p>table 1. List of HTML elements</p>
+  </caption>
+  <thead>
+    <tr>
+      <th>Number</th>
+      <th>element</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>4.1.1</td>
+      <td>html</td>
+    </tr>
+    <tr>
+      <td>4.2.1</td>
+      <td>head</td>
+    </tr>
+  </tbody>
+</table>
+
+<tfoot>
+The <tfoot> element represents the block of rows that consist of the column summaries (footers) for the parent table element, if the tfoot element has a parent and it is a table. It is a container tag.
+
+Syntax: <tfoot>..............</tfoot>
+
+Example:
+<table border=1>
+  <caption>
+    <p>table 1. List of HTML elements</p>
+  </caption>
+  <thead>
+    <tr>
+      <th>Number</th>
+      <th>element</th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <td colspan="2">copyright ...</td>
+    </tr>
+  </tfoot>
+  <tbody>
+    <tr>
+      <td>4.1.1</td>
+      <td>html</td>
+    </tr>
+    <tr>
+      <td>4.2.1</td>
+      <td>head</td>
+    </tr>
+  </tbody>
+</table>
+
+Example:(Table with form objects)
+<html>
+<head>
+<title>
+Working with table
+</title>
+</head>
+<table bgcolor="lightblue" height="10%" width="300">
+<tr><td>User Name:</td><td><Input></td></tr>
+<tr><td>Password:</td><td><Input type="password"></td></tr>
+<tr><td><Input type="button" value=Login></td></tr>
+</table>
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Styles and Semantics
+
+HTML Span Tag
+Generally HTML span tag is used to apply the inline styles on some specific character, words or other HTML elements. It is a paired tag.
+
+Syntax: 
+ <span>-----------------</span>
+
+Example:
+<body>
+<span style="color:red">Welcome to SPAN </span>
+</body>
+
+Example:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML forms</title>
+</head>
+<body>
+  <span style='color:red'>Welcome to Span tag.....!!!</span><br>
+  <span style='color:green'>Welcome to Span tag.....!!!</span><br>
+  <span style='color:blue'>Welcome to Span tag.....!!!</span>
+</body>
+</html>
+---------------------------------------------------------------------------------------------------------------------------------
+
+Marquee tag:
+Using this  tag we can create a scrolling text or scrolling image from left to right, right to left, top to bottom, bottom to top. It is a Paired tag. 
+
+Syntax:	
+<marquee>-------------</marquee>
+
+Marquee Tag Attributes:
+Attributes Values	Description
+behavior	"slide"	Start and stop as soon as text touches the 		Margin.
+	"scroll"	Start completely and off one side (Default)
+	"alternate" Text bounce as soon as  touch both sidemargin
+bgcolor	ColorCode Specifies the color as background
+direction	"left"	  Left to Right
+	"right"    	  Right to Left
+	"up"	  Bottom to Top		
+	"down"	  Top to Botoom
+width	"size_px"	Specifies width in marquee.
+height	"size_px" Specifies height in marquee
+loop	"number"  Loop Continues in limited times.
+scrollamount "number" Specifies Speed to scroll on the text.
+
+Note:
+1.The default behavior of marquee tag is scroll
+2.Its behavior differ from browser to browser
+
+NOTE:
+The <marquee> tag deprecated in HTML5. Do not use this element, instead you can use JavaScript and CSS to create such effects.
+
+Example1:
+<html>
+<head>
+<title>
+Marquee tag
+</title>
+</head>
+<body>
+<marquee>Naresh i Technologies</marquee>
+</body>
+</html>
+
+Example2:
+<html>
+<head>
+<title>
+Welcome to Naresh i Technologies
+</title>
+</head>
+<body>
+<marquee behavior="scroll">Naresh i Technologies in SCROLL</marquee>
+<marquee behavior="slide">Naresh i Technologies in SLIDE</marquee>
+<marquee behavior="alternate">Naresh i Technologies in ALTERNATE</marquee>
+<marquee behavior="scroll" direction="up">Upside Text Scrolling</marquee>
+</body>
+</html>
+
+Example3:
+<html>
+<head>
+<title>
+marquee Tag.
+</title>
+</head>
+<body>
+<marquee behavior="scroll" bgcolor="red" scrollamount=3 direction="up" height=200pix width=200pix>Naresh i Technologies in SCROLL</marquee>
+<marquee behavior="slide" bgcolor="pink" scrollamount=3 direction="down" height=200pix width=200pix>Naresh i Technologies in SLIDE</marquee>
+<marquee behavior="alternate" bgcolor="yellow" scrollamount=3 direction="right" height=200pix width=200pix>Naresh i Technologies in ALTERNATE</marquee>
+</body>
+</html>
+
+Example:
+<marquee behavior="scroll" direction="left" scrollamount="3">Slow Speed scroll speed</marquee>
+<marquee behavior="scroll" direction="left" scrollamount="10">Medium Speed scroll speed</marquee>
+<marquee behavior="scroll" direction="left" scrollamount="17">Fast Speed scroll speed</marquee>
+
+Example:
+<marquee behavior="scroll" direction="left" id="marquee1"><p>Press Button</p></marquee>
+<input type="button" value="Stop Marquee" onClick="document.getElementById('marquee1').stop();">
+<input type="button" value="Start Marquee" onClick="document.getElementById('marquee1').start();">
+
+Example:
+<marquee behavior="scroll" direction="left" scrollamount="6" id="marquee1">marquee slow/medium/fast speed using button</marquee>
+<input type="button" value="Slower" onClick="document.getElementById('marquee1').setAttribute('scrollamount', 1, 0);">
+<input type="button" value="Medium" onClick="document.getElementById('marquee1').setAttribute('scrollamount', 5, 0);">
+<input type="button" value="Faster" onClick="document.getElementById('marquee1').setAttribute('scrollamount', 10, 0);">
+
+More Advanced:
+<marquee style="z-index:2;position:absolute;left:18px;top:97px;font-family:Cursive;font-size:14pt;color:#ff0000;height:200px;"scrollamount="3" direction="down">nareshit.com</marquee>
+<marquee style="z-index:2;position:absolute;left:1px;top:89px;font-family:Cursive;font-size:14pt;color:#ff0000;height:100px;"scrollamount="7" direction="down">nareshit.com</marquee>
+<marquee style="z-index:2;position:absolute;left:111px;top:7px;font-family:Cursive;font-size:14pt;color:#ff0000;height:302px;"scrollamount="4" direction="down">nareshit.com</marquee>
+<marquee style="z-index:2;position:absolute;left:225px;top:83px;font-family:Cursive;font-size:14pt;color:#ff0000;height:371px;"scrollamount="3" direction="down">nareshit.com</marquee>
+<marquee style="z-index:2;position:absolute;left:105px;top:53px;font-family:Cursive;font-size:14pt;color:#ff0000;height:317px;"scrollamount="2" direction="down">nareshit.com</marquee>
+<marquee style="z-index:2;position:absolute;left:168px;top:69px;font-family:Cursive;font-size:14pt;color:#ff0000;height:369px;"scrollamount="1" direction="down">nareshit.com</marquee>
+<marquee style="z-index:2;position:absolute;left:130px;top:117px;font-family:Cursive;font-size:14pt;color:#ff0000;height:289px;"scrollamount="7" direction="down">nareshit.com</marquee>
+<marquee style="z-index:2;position:absolute;left:176px;top:57px;font-family:Cursive;font-size:14pt;color:#ff0000;height:78px;"scrollamount="7" direction="down">nareshit.com</marquee>
+<marquee style="z-index:2;position:absolute;left:16px;top:57px;font-family:Cursive;font-size:14pt;color:#ff0000;height:56px;"scrollamount="5" direction="down">nareshit.com</marquee>
+<marquee style="z-index:2;position:absolute;left:300px;top:86px;font-family:Cursive;font-size:14pt;color:#ff0000;height:194px;"scrollamount="2" direction="down">nareshit.com</marquee>
+<marquee style="z-index:2;position:absolute;left:292px;top:10px;font-family:Cursive;font-size:14pt;color:#ff0000;height:251px;"scrollamount="6" direction="down">nareshit.com</marquee>
+<marquee style="z-index:2;position:absolute;left:278px;top:74px;font-family:Cursive;font-size:14pt;color:#ff0000;height:154px;"scrollamount="1"direction="down">nareshit.com</marquee>
+<marquee style="z-index:2;position:absolute;left:241px;top:72px;font-family:Cursive;font-size:14pt;color:#ff0000;height:82px;"scrollamount="3" direction="down">nareshit.com</marquee>
+<marquee style="z-index:2;position:absolute;left:276px;top:32px;font-family:Cursive;font-size:14pt;color:#ff0000;height:70px;"scrollamount="8" direction="down">nareshit.com</marquee>
+<marquee style="z-index:2;position:absolute;left:272px;top:15px;font-family:Cursive;font-size:14pt;color:#ff0000;height:334px;"scrollamount="11" direction="down">nareshit.com</marquee>
+<marquee style="z-index:2;position:absolute;left:90px;top:38px;font-family:Cursive;font-size:14pt;color:#ff0000;height:167px;"scrollamount="7" direction="down">nareshit.com</marquee>
+<marquee style="z-index:2;position:absolute;left:275px;top:108px;font-family:Cursive;font-size:14pt;color:#ff0000;height:375px;"scrollamount="7" direction="down">nareshit.com</marquee>
+<marquee style="z-index:2;position:absolute;left:22px;top:76px;font-family:Cursive;font-size:14pt;color:#ff0000;height:12px;"scrollamount="7" direction="down">nareshit.com</marquee>
+<marquee style="z-index:2;position:absolute;left:89px;top:54px;font-family:Cursive;font-size:14pt;color:#ff0000;height:366px;"scrollamount="2" direction="down">nareshit.com</marquee>
+<marquee style="z-index:2;position:absolute;left:26px;top:72px;font-family:Cursive;font-size:14pt;color:#ff0000;height:358px;"scrollamount="1" direction="down">nareshit.com</marquee>
+<marquee style="z-index:2;position:absolute;left:3px;top:44px;font-family:Cursive;font-size:14pt;color:#ff0000;height:130px;"scrollamount="3" direction="down">nareshit.com</marquee> 
+<marquee style="z-index:2;position:absolute;left:300px;top:108px;font-family:Cursive;font-size:14pt;color:#ff0000;height:375px;"scrollamount="7" direction="down">nareshit.com</marquee>
+<marquee style="z-index:2;position:absolute;left:335px;top:76px;font-family:Cursive;font-size:14pt;color:#ff0000;height:125px;"scrollamount="7" direction="down">nareshit.com</marquee>
+<marquee style="z-index:2;position:absolute;left:400px;top:54px;font-family:Cursive;font-size:14pt;color:#ff0000;height:366px;"scrollamount="2" direction="down">nareshit.com</marquee>
+<marquee style="z-index:2;position:absolute;left:355px;top:72px;font-family:Cursive;font-size:14pt;color:#ff0000;height:358px;"scrollamount="1" direction="down">nareshit.com</marquee>
+<marquee style="z-index:2;position:absolute;left:380px;top:44px;font-family:Cursive;font-size:14pt;color:#ff0000;height:375px;"scrollamount="3" direction="down">nareshit.com</marquee>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Styles and Semantics
+
+HTML Span Tag
+Generally HTML span tag is used to apply the inline styles on some specific character, words or other HTML elements. It is a paired tag.
+
+Syntax: 
+ <span>-----------------</span>
+
+Example:
+<body>
+<span style="color:red">Welcome to SPAN </span>
+</body>
+
+Example:
+<!doctype html>
+<body>
+<span style='color:red;font-family:tahoma;font-size:30px'>Welcome to Span tag..!!</span> <br>
+
+<span style='color:green;font-family:candara;font-size:40px'>Welcome</span> to Span tag..!! <br>
+
+<span style='color:blue;font-family:arial;font-size:90px'>W</span>elcome to Span tag..!!
+
+<!-- style attribute is global attribute to apply different styles from Cascading Style Sheets -->
+</body>
+
+HTML <div> Tag:
+By using this tag we can design the webpage as multuple divisions. If you want to design the web page with a specific format we can go for div tag. It is a paired tag, it can hold multiple elements.
+
+Syntax:
+<div>-------------</div>
+
+Attributes:
+1 align	2 style
+	
+Example:
+<body>
+<div style="background-color:orange;width:100%;height:100">
+<span style='color:blue;font-size:30'>Welcome to my site div1</span>
+</div>
+<div style='background-color:white;width:100%;height:100'>
+<span style='color:blue;font-size:30'>Welcome to my site div2</span>
+</div>
+<div style='background-color:green;width:100%;height:100'>
+<span style='color:blue;font-size:30'>Welcome to my site div3</span>
+</div>
+</body>
+
+------------------------------------------------------------------------------------------------------------------------------------------
+CSS
+---------------------------------------------------------------------------------------------------------------------------------------
+
+What is CSS?
+Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable.;
+	
+Why CSS?
+1 CSS easy Manage a lot of Websites page Layout.
+2 CSS save a lot of Time.
+3 CSS Sheets make Global change to all website pages.
+
+Features of CSS:
+1. Flexibility
+2. Codes Rendering
+3. Accessibility
+4. Easy Manage
+5. Global Change
+6. CSS Save a lot of time
+7. Easy Maintenance
+8. Inline Styles
+9. Internal Style Sheets
+10. External Style Sheets
+11. Page Load Faster
+12. Superior styles to HTML 
+13. Multiple Device Compatibility
+14. Global web standards 
+
+CSS Versions:
+CSS1.0 ==> 1996
+CSS2.0 ==> 1998
+CSS3.0 ==> 2008
+CSS4.0 ==> 2016
+Bootstrap: Mobile Front-End Framework for Responsive Web Design, One Wesite can able to fit on any device..!!
+LESS ==> Linear CSS
+SASS ==> Syntatically Awesome Style Sheets
+
+CSS Syntax:
+Selector: A selector is an HTML tag at which style will be applied. This could be any tag like <h1> or <table> etc.
+
+Property: A property is a type of attribute of HTML tag. Put simply, all the HTML attributes are converted into CSS properties. They could be color or border etc.
+
+Value: Values are assigned to properties. For example color property can have value either red or #F1F1F1 etc.
+
+Syntax as follows:
+selector { property: value }
+
+Example: Table border as follows:
+table{ border :1px solid #C0lorCode; }
+
+Basic Examples:
+
+<html><head>
+<style type="text/css">
+	h1 {color: green}
+ 	h2 {color: #dda0dd}
+ 	p {color: rgb(0,0,255)}
+</style>
+</head>
+<body>
+ 	<h1>This is header 1</h1>
+ 	<h2>This is header 2</h2>
+ 	<p>This is a paragraph</p>
+</body>
+</html>
+
+Example2
+<body background="chrome.png" style="background-repeat:no-repeat;background-attachment:fixed;margin:100;text-align:justify">
+ 	
+Example3
+<style>
+<img src="fr.jpg" width="100" style="position:absolute;top:100;left:100"  >
+</style>
+
+Three Ways to Insert CSS (Types of Style Sheets)
+There are three ways of inserting a style sheet:
+Inline styles
+Internal style sheet
+External style sheet 
+
+Examples for Inline Style sheets:
+<p style="color: red">Hi I am in RED color</p> 
+This will make that specific paragraph red. 
+<span style="color:blue">Hi I am sky in Blue color</span> 
+This will make that text style in blue color.
+
+2. <b p style="color: green">Hi I am in Bold </b> </p>
+<span style="color:lightblue">Hi I am sky in Blue color</span> 
+
+Examples for Internal Style Sheets or Page Level Style Sheets
+1. 
+<html>
+<head>
+<style type="text/css">
+p
+{
+color:red;
+text-align:center;
+} 
+</style>
+</head>
+<body>
+<p>Hello World!</p>
+<p>This paragraph is styled with CSS.</p>
+</body>
+</html>
+
+2. 
+<html>
+<head>
+<style type="text/css">
+p
+{
+color:pink;
+text-align:right;
+background-color:green;
+} 
+</style>
+</head>
+<body>
+<p>Welcome to CSS</p>
+<p>This paragraph is styled with CSS.</p>
+</body>
+</html>
+
+EXTERNAL STYLE SHEETS
+
+Example1:
+Step 1
+Prepare CSS file
+Step 2
+Prepare HTML file
+
+Step 1
+h1 {color: green}
+h2 {color: #dda0dd}
+p {color: rgb(0,0,255)}
+
+Step 2
+<head>
+<link rel="stylesheet" href="one.css">
+</head>
+<body>
+ 	<h1>This is header 1</h1>
+ 	<h2>This is header 2</h2>
+ 	<p>This is a paragraph</p>
+</body>
+</html>
+
+
+Example2:
+Step 1
+Prepare CSS file
+Step 2
+Prepare HTML file
+
+.cls{
+border:1px solid blue;
+width:100;
+height:100;
+background-color:red;
+}
+
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="cls">
+Hello
+</div>
+</body>
+
+
+3.
+strong 
+{
+color: red;
+text-decoration: underline;
+}
+
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <title>Sample document</title>
+  <link rel="stylesheet" href="style1.css">
+  </head>
+  <body>
+    <p>
+      <strong>C</strong>ascading
+      <strong>S</strong>tyle
+      <strong>S</strong>heets
+    </p>
+  </body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------------------
+CSS Units
+CSS supports a number of measurements including absolute units such as inches, centimeters, points, and so on, as well as relative measures such as percentages and em units. 
+
+em (ems, the height of the element's font), An em is a unit of measurement in the field of typography, equal to the currently specified point size. 
+
+Syntax: em;
+
+Example:
+<html>
+<head>
+<style type="text/css">
+p 
+{
+letter-spacing: 7em;
+}
+</style>
+</head>
+<body>
+<h1>CSS Units!</h1>
+<p>This text is not easy to read on page.</p>
+</body>
+</html>
+
+ex (x-height, the height of the letter "x")
+This value defines a measurement relative to a font's x-height. 
+
+Syntax: ex;
+
+Example:
+<html>
+<head>
+<style type="text/css">
+p 
+{
+font-size: 24pt; 
+line-height: 3ex;
+}
+</style>
+</head>
+<body>
+<h1>CSS Units!</h1>
+<p>This text is not easy to read on page.</p>
+</body>
+</html>
+
+Defines a measurement in screen pixels.
+px (pixels, relative to the canvas resolution)
+
+Syntax: px;
+
+Example:
+<html>
+<head>
+<style type="text/css">
+p 
+{
+padding: 25px;
+}
+</style>
+</head>
+<body>
+<h1>CSS Units!</h1>
+<p>This text is not easy to read on page.</p>
+</body>
+</html>
+
+Absolute length units are highly dependent on the output medium, and so are less useful than relative units. The following absolute units are available:
+
+in (inches; 1in=2.54cm)
+Defines a measurement in inches.
+
+Syntax: in
+
+Example:
+<html>
+<head>
+<style type="text/css">
+p 
+{
+word-spacing: .15in;
+}
+</style>
+</head>
+<body>
+<h1>CSS Units!</h1>
+<p>This text is not easy to read on page.</p>
+</body>
+</html>
+
+cm (centimeters; 1cm=10mm)
+Defines a measurement in centimeters
+
+Syntax: cm;
+
+div 
+{
+margin-bottom: 2cm;
+}
+
+mm (millimeters)
+Defines a measurement in millimeters
+
+Syntax:mm;
+
+<html>
+<head>
+<style type="text/css">
+p
+{
+word-spacing: 15mm;
+}
+</style>
+</head>
+<body>
+<h1>CSS Units!</h1>
+<p >This text is not easy to read on page.</p>
+</body>
+</html>
+
+pt
+Defines a measurement in points. A point is defined as 1/72nd of an inch. pt (points; 1pt=1/72in)
+
+Syntax:pt;
+
+<html>
+<head>
+<style type="text/css">
+body 
+{
+font-size: 18pt;
+}
+</style>
+</head>
+<body>
+<h1>CSS Units!</h1>
+<p >This text is not easy to read on page.</p>
+</body>
+</html>
+
+pc (picas; 1pc=12pt)
+Defines a measurement in picas. A pica is equivalent to 12 points; thus, there are 6 picas per inch.
+
+Syntax: pc;
+
+<html>
+<head>
+<style type="text/css">
+p
+{
+font-size: 20pc;
+}
+</style>
+</head>
+<body>
+<h1>CSS Units!</h1>
+<p >This text is not easy to read on page.</p>
+</body>
+</html>
+
+% 
+Defines a measurement as a percentage relative to another value, typically an enclosing element.
+
+Example:
+<html>
+<head>
+<style type="text/css">
+p 
+{
+font-size: 16pt; 
+line-height: 125%;
+}
+</style>
+</head>
+<body>
+<h1>CSS Units!</h1>
+<p >This text is not easy to read on page.</p>
+</body>
+</html>
+
+Setting Backgrounds using CSS:
+1. background-color
+2. background-image
+3. background-repeat
+4. background-attachment
+5. background-position
+
+1. The background-color property is used to set the background color of an element.
+2. The background-image property is used to set the background image of an element.
+3. The background-repeat property is used to control the repetition of an image in the background.
+4. The background-position property is used to control the position of an image in the background.
+5. The background-attachment property is used to control the scrolling of an image in the background.
+
+1 background-color Porperty:
+The background-color property is used to set the background color of an element.
+Syntax:
+background-color:colorName/ColorCode/HexaCode;
+or
+background:colorName/ColorCode/HexaCode;
+
+Example:
+<head>
+<style type='text/css'>
+div
+{
+background-color:#FFFF00;
+}
+</style>
+<body>
+<div>Working with Typography...!!</div>
+</body>
+
+Example2:
+<head>
+<style type='text/css'>
+div
+{
+background:red;
+}
+</style>
+<body>
+<div>Working with Typography...!!</div>
+</body>
+
+Example:
+<p style="background-color:yellow;">
+This text has a yellow background color.
+</p>
+
+2. The background-image property is used to set the background image of an element.
+
+Syntax:
+background-image:url('ImgPath');
+or
+background:url('ImgPath');
+
+Example1:
+<head>
+<style type='text/css'>
+body
+{
+background-image:url("html5.png");
+}
+</style>
+<body>
+<div>Working with Typography...!!</div>
+</body>
+
+Example2:
+<head>
+<style type='text/css'>
+body
+{
+background:url("html5.png");
+}
+</style>
+<body>
+<div>Working with Typography...!!</div>
+</body>
+
+Example3:
+<p style="background-color:yellow;background-image:url('html.png')">This text has a yellow background color.
+</p>
+
+3. The background-repeat property is used to control the repetition of an image in the background.
+
+Syntax:
+background-repeat:no-repeat;
+or
+background:no-repeat;
+
+Property Values
+Value		Description	
+repeat		The background image repeated both vertically and horizontally. 	
+repeat-x		The background image repeated only horizontally	
+repeat-y		The background image repeated only vertically	
+no-repeat	The background-image not repeated	
+
+Example:
+<head>
+<style>
+body
+{
+background-image:url('water.gif');
+background-repeat:no-repeat;
+}
+</style>
+</head>
+<body>
+<p>repeat-x will repeat a background image only vertically.</p>
+</body>
+
+Example:
+<style>
+<body background="chrome.png" style="background-repeat:no-repeat;background-attachment:fixed;margin:100;text-align:justify">
+</style>
+
+4. The background-attachment property is used to control the scrolling of an image in the background.
+
+Syntax:
+background-attachment:fixed;
+or
+background:fixed;
+
+Example:
+<body background="html5.png" style="background-repeat:no-repeat;background-attachment:fixed;text-align:justify">
+Some Text...
+Some Text...
+</body>
+
+5. The background-position property is used to control the position of an image in the background.
+
+Syntax:
+background-position:left/center/right;
+or
+background:center;
+
+Example:
+<html>
+<head>
+<style type="text/css">
+body
+{ 
+background-image:url('water.gif');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center; 
+}
+</style>
+</head>
+</body>
+</html>
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+Selectors:
+Styles Reusability 
+
+Types of Selectors:
+1. Tag/Type Selectors
+2. ID Selectors
+3. Class Selectors
+4. Grouping Selectors
+5. Customized Selectors etc...............
+
+Type/Tag selectors
+A type selector matches the name of a document language element type. A type selector matches every instance of the element type in the document tree.
+
+Syntax:
+div
+{
+Styles
+Styles
+Styles
+}
+
+2.
+<html>
+<head>
+<style type="text/css">
+body
+{
+background-color:#FF00FF;
+}
+</style>
+</head>
+<body>
+<h1>My CSS web page!</h1>
+<p>Hello world!</p>
+</body>
+</html>
+3.
+<html>
+<head>
+<style type="text/css">
+h1
+{
+background-color:red;
+}
+div
+{
+background-color:pink;
+}
+</style>
+</head>
+<body>
+<h1>CSS background-color example!</h1>
+<div>
+This is a text inside a div element. We are still in the div element.
+</div>
+</body>
+</html>
+
+The id and class Selectors
+In addition to setting a style for a HTML element, CSS allows you to specify your own selectors called "id" and "class".
+
+The id Selector
+It is used to specify a style for a single, unique element. The id selector uses the id attribute of the HTML element, and is defined with a "#". # is the notation or Symbol.
+
+Syntax1:
+#div
+{
+styles
+styles
+styles
+}
+
+Syntax:
+div#div
+{
+styles
+styles
+styles
+}
+
+Examples
+1.
+<html>
+<head>
+<style type="text/css">
+p#bold 
+{ 
+font-weight: bold; 
+}
+</style>
+</head>
+<body>
+<p id="bold">this paragraph will be rendered bold.</p>
+</body>
+</html>
+2.
+<html>
+<head>
+<style type="text/css">
+#Exa
+{
+text-align:center;
+color:red;
+} 
+</style>
+</head>
+<body>
+<p id="Exa">Hello CSS World!</p>
+<p>This paragraph is not affected by the style.</p>
+</body>
+</html>
+3.
+<html>
+<head>
+<style type="text/css">
+#para1
+{
+text-align:right;
+color:green;
+} 
+#para2
+{
+text-align:center;
+color:red;
+} 
+</style>
+</head>
+<body>
+<p id="para1">Hello World!</p>
+<p id="para2">This paragraph is not affected by the style.</p>
+</body>
+</html>
+
+Example:
+<head>
+<style type='text/css'>
+#div1
+{
+color:blue;
+font-family:tahoma;
+}
+</style>
+<script type='text/javascript'>
+function MySelector()
+{
+document.getElementById("div1").innerHTML="Raju";
+}
+</script>
+</head>
+<body>
+<p style='color:gray'>Click the button to display the ID related result...!!</p>
+<div id="div">HTML5</div>
+<div id="div1">JavaScript</div>
+<button onclick="MySelector()">ClickMe</button>
+</body>
+
+The class Selector
+It is used to specify a style for a group of elements .The class selector uses the HTML class attribute, and is defined with a "."
+
+Syntax:
+.div
+{
+styles
+styles
+styles
+}
+
+Syntax:
+div.div
+{
+styles
+styles
+styles
+}
+
+Examples:
+1.
+<html>
+<head>
+<style type="text/css">
+p.bold 
+{ 
+font-weight: bold; 
+}
+</style>
+</head>
+<body>
+<p class="bold">this paragraph will
+ be rendered bold.</p>
+</body>
+</html>
+2.
+<html>
+<head>
+<style type="text/css">
+.right1
+{
+text-align:right;
+}
+</style>
+</head>
+<body>
+<h1 class="right1">Right-aligned heading</h1>
+<p class="right1">Right-aligned paragraph.</p> 
+</body>
+</html>
+3.
+<html>
+<head>
+<style type="text/css">
+.center
+{
+text-align:center;
+}
+</style>
+</head>
+<body>
+<h1 class="center">Naresh i Technologies</h1>
+<p class="center">Center-aligned paragraph.</p>
+<b class="center">Text is in bold.</b> 
+</body>
+</html>
+4.
+<html>
+<head>
+<style>
+#div1
+{
+text-decoration:underline;
+color:lime;
+}
+.cls1
+{
+border:5px double red;
+width:100;
+height:100;
+}
+</style>
+<body>
+<div id='div1'>Hello</div>
+<div class="cls1">Hii</div>
+</body>
+</html>                    
+
+Selector Grouping
+We can group selectors using a comma (,) separator.
+
+Example1:
+
+h1 { font-family: sans-serif }
+h2 { font-family: sans-serif }
+h3 { font-family: sans-serif }
+
+is equivalent to:
+h1, h2, h3 { font-family: sans-serif }
+
+Example:
+p 
+{
+   font-family: tahoma;
+   font-size: 14px;
+}
+div 
+{
+   font-family: tahoma;
+   font-size: 14px;
+}
+blockquote 
+{
+   font-family: tahoma;
+   font-size: 14px;
+}
+
+is equivalent to:
+
+p, div, blockquote 
+{
+   font-family: tahoma;
+   font-size: 14px;
+}
+
+Example:
+
+<html>
+<head>
+<style>
+#div1,.cls1
+{
+text-decoration:underline;
+color:lime;
+}
+</style>
+<body>
+<div id='div1'>Hello</div>
+<div class="cls1">Hii</div>
+</body>
+</html>         
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Setting Fonts using CSS:
+1.font-family 
+2. font-style
+3. font-variant
+4. font-weight
+5. font-size
+
+1. The font-family property is used to change the face of a font.
+2. The font-style property is used to make a font italic or oblique.
+3. The font-variant property is used to create a small-caps effect.
+4. The font-weight property is used to display bold or light a font appears
+5. The font-size property is used to increase or decrease the size of a font.
+
+Example:
+<p style="font-family:georgia,garamond,serif;">
+This text is rendered in either georgia, garamond, or the default
+serif font depending on which font  you have at your system.
+</p>
+
+<html>
+<head>
+<style>
+p.normal {font-style:normal;}
+p.italic {font-style:italic;}
+p.oblique {font-style:oblique;}
+</style>
+</head>
+<body>
+<p class="normal">This is a paragraph, normal.</p>
+<p class="italic">This is a paragraph, italic.</p>
+<p class="oblique">This is a paragraph, oblique.</p>
+</body>
+</html>
+
+<p style="font-weight:bold;">
+This font is bold.
+</p>
+<p style="font-weight:bolder;">
+This font is bolder.
+</p>
+<p style="font-weight:900;">
+This font is 900 weight.
+</p>
+
+<p style="font-size:20px;">
+This font size is 20 pixels
+</p>
+<p style="font-size:small;">
+This font size is small
+</p>
+<p style="font-size:large;">
+This font size is large
+</p>
+
+<head>
+<style type="text/css">
+p.normal {font-variant:normal;}
+p.small {font-variant:small-caps;}
+</style>
+</head>
+<body>
+<p class="normal">My name is SubbaRaju.</p>
+<p class="small">My name is SubbaRaju.</p>
+</body>
+
+font Example:
+<html>
+<head>
+<style type='text/css'>
+p.ex1
+{
+font:25px tahoma;
+}
+</style>
+</head>
+<body>
+<p class="ex1">This is a paragraph. This is a paragraph. This is a paragraph.</p>
+</body>
+</html>
+
+CSS Basic Text Properties:
+1. color
+2. direction
+3. letter-spacing 
+4. word-spacing
+5. text-indent 
+6. text-align
+7. text-decoration
+8. text-transform 
+9. white-space
+10. vertical-align 
+	
+Manipulating Text using CSS
+1. The color property is used to set the color of a text.
+2. The direction property is used to set the text direction.
+3. The letter-spacing property is used to add or subtract space between the letters that make up a word.
+4. The word-spacing property is used to add or subtract space between the words of a sentence.
+5. The text-indent property is used to indent the text of a paragraph.
+6. The text-align property is used to align the text of a  document.
+7. The text-decoration property is used to underline, overline, and line-through text.
+8. The text-transform property is used to capitalize text or convert text to uppercase or lowercase letters.
+9. The white-space property is used to control the flow and formatting of text.
+10. vertical-align property sets the vertical alignment of an element.
+
+
+1. The color property is used to set the color of a text.
+
+Syntax:
+color:colorName/ColorCode
+
+Example:
+<head>
+<style type="text/css">
+p
+{ 
+color:blue;
+}
+</style>
+</head>
+<body>
+<p>Welcome to CSS Text Properties..!!</p>
+</body>
+
+Example:
+<body>
+<p style="color:blue">Welcome to CSS Text Properties..!!</p>
+</body>
+
+Examples
+<p style="direction:rtl;">
+This text will be renedered from right to left
+</p>
+
+<p style="letter-spacing:5px;">
+This text is having space between letters.
+</p>
+
+<head>
+<style type="text/css">
+p 
+{
+text-indent:50px;
+}
+</style>
+</head>
+<body>
+<p>jQuery is a fast and concise JavaScript library created by John Resig in 2006 with a nice motto: Write less, do more. jQuery simplifies HTML document traversing, event handling, animating, and Ajax interactions for Rapid Web Development. jQuery is library of JavaScript file, containing all jQuery functions. jQuery developing Ajax base Application.</p>
+</body>
+
+<p style="text-align:right;">
+This will be right aligned.
+</p>
+<p style="text-align:center;">
+This will be center aligned.
+</p>
+<p style="text-align:left;">
+This will be left aligned.
+</p>
+
+<p style="text-decoration:underline;">
+This will be underlined
+</p>
+<p style="text-decoration:line-through;">
+This will be striked through.
+</p>
+<p style="text-decoration:overline;">
+This will have a over line.
+</p>
+<p style="text-decoration:blink;">
+This text will have blinking effect
+</p>
+
+<p style="text-transform:capitalize;">
+This will be capitalized
+</p>
+<p style="text-transform:uppercase;">
+This will be in uppercase
+</p>
+<p style="text-transform:lowercase;">
+This will be in lowercase
+</p>
+
+<head>
+<style type="text/css">
+p
+{
+white-space:nowrap;
+}
+</style>
+</head>
+<body>
+<p>
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+</p>
+</body>
+
+<p style="text-shadow:4px 4px 8px blue;">
+If your browser supports the CSS text-shadow property, 
+this text will have a  blue shadow.</p>
+
+vertical-align Property Values
+baseline
+sub
+super
+top
+text-top
+middle
+bottom
+text-bottom
+0px
+10px
+
+Example:
+<head>
+<style type="text/css">
+b
+{
+background-color:yellow;
+vertical-align:super;
+}
+</style>
+</head>
+<body>
+vertical alignment of an <b> element </b>
+</body>
+
+CSS - Images:
+CSS plays a good role to control image display. You can set following image properties using CSS.
+
+1.The border property is used to set the width of an image border.
+2. The height property is used to set the height of an image.
+3. The width property is used to set the width of an image.
+
+The image border Property:
+<img style="border:0px;" src="html.png" />
+<br />
+<img style="border:3px dashed red;" src="html.png" />
+
+The image height Property:
+The height property of an image is used to set the height of an image. This property can have a value in length or in %.
+
+<img style="border:1px solid red; height:100px;" 
+        src="html.png" />
+<br />
+<img style="border:1px solid red; height:50%;" 
+        src="html.png" />
+
+CSS - Links
+The :link Signifies unvisited hyperlinks.
+The :visited Signifies visited hyperlinks.
+The :hover Signifies an element that currently has the user's mouse pointer hovering over it.
+The :active Signifies an element on which the user is currently clicking.
+
+Set the color of Links:
+<style type="text/css">
+a:link {color:#000000}
+</style>
+<a href="nit1.html">Black Link</a>
+
+Set the color of Visited Links:
+<style type="text/css">
+a:visited {color: #006600}
+</style>
+<a href="nit1.html">Click this link</a>
+
+Change the color of links when mouse is over:
+<head>
+<style type="text/css">
+a:hover 
+{
+color: #FFCC99;
+}
+</style>
+</head>
+<body>
+<a href="goodmorning.gif">Bring Mouse Here</a>
+</body>
+
+Change the color of active links:
+<style type="text/css">
+a:active {color: #FF00CC}
+</style>
+<a href="nit1.html">Click This Link</a>
+-----------------------------------------------------------------------------------------------------------------------------------
+
